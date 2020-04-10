@@ -1,0 +1,494 @@
+.toolbar {
+    padding: 0;
+    color: #fff;
+    min-height: 30px;
+    position: relative;
+    z-index: 5555;
+    background: rgba(0, 0, 0, .2);
+    display: block
+}
+
+.toolbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto
+}
+
+.toolbar ul li {
+    float: left;
+    margin-right: 22px;
+    color: #929596;
+    font-size: 10px;
+    font-weight: 800;
+    line-height: 30px
+}
+
+.toolbar ul li i {
+    padding-right: 5px;
+    font-size: 12px
+}
+
+.toolbar ul li form {
+    margin-bottom: 0;
+    line-height: 28px;
+    margin-top: 0
+}
+
+.toolbar ul li a {
+    color: #929596;
+    font-size: 10px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: uppercase
+}
+
+.toolbar ul.social li {
+    margin-right: 5px
+}
+
+.toolbar ul ul.languages {
+    display: none;
+    position: absolute;
+    top: 22px;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 9000;
+    border-radius: 3px;
+    padding: 5px
+}
+
+.toolbar ul ul.languages li {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+    line-height: 22px
+}
+
+.toolbar ul ul.languages li img {
+    margin-right: 5px
+}
+
+.toolbar ul ul.cart_dropdown {
+    display: none;
+    position: absolute;
+    top: 22px;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 9000;
+    border-radius: 3px;
+    padding: 5px
+}
+
+.toolbar ul ul.cart_dropdown li {
+    width: 100%;
+    float: none;
+    margin-right: 0;
+    line-height: 22px
+}
+
+.toolbar ul ul.cart_dropdown li img {
+    margin-right: 5px
+}
+
+.toolbar ul ul.cart_dropdown li a {
+    line-height: 22px;
+    text-decoration: none
+}
+
+.toolbar ul.company_info li {
+    margin-left: 22px;
+    margin-right: 0
+}
+
+.toolbar .search_box {
+    background: 0 0;
+    box-shadow: none;
+    height: 22px;
+    display: inline-block;
+    min-height: initial;
+    margin: 0;
+    border: 0;
+    color: #929596;
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    float: none;
+    padding: 0 4px
+}
+
+.toolbar .search_box::-webkit-input-placeholder,
+.toolbar .search_box:-moz-placeholder,
+.toolbar .search_box::-moz-placeholder,
+.toolbar .search_box:-ms-input-placeholder {
+    color: inherit;
+    transition: all .5s linear
+}
+
+.toolbar input.search_box::-moz-placeholder,
+.toolbar input.search_box:-ms-input-placeholder {
+    transition: all .5s linear
+}
+
+.toolbar input.search_box:hover::-webkit-input-placeholder,
+.toolbar input.search_box:hover::-moz-placeholder {
+    color: #fff;
+    transition: all .5s linear
+}
+
+
+.toolbar li:hover ul.languages,
+.toolbar ul.languages:hover {
+    display: block;
+    -webkit-animation: fadeIn .5s;
+    animation: fadeIn .5s
+}
+
+.toolbar li:hover ul.cart_dropdown,
+.toolbar ul.cart_dropdown:hover {
+    display: block;
+    -webkit-animation: fadeIn .5s;
+    animation: fadeIn .5s
+}
+
+.bottom-header {
+    padding-bottom: 21px;
+    margin-bottom: -21px
+}
+
+.toolbar_shadow {
+    background-image: url(//demo.themesuite.com/automotive-wp/wp-content/themes/automotive-wp/css/../images/message-shadow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 21px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: initial
+}
+
+.header_shadow {
+    background-image: url(//demo.themesuite.com/automotive-wp/wp-content/themes/automotive-wp/css/../images/header_shadow.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 21px;
+    margin-bottom: -21px
+}
+
+header.affix .bottom-header {
+    height: initial;
+    background-position: center 68px
+}
+
+header .navbar-brand img {
+    height: 65px;
+    width: auto;
+    margin-top: -6px
+}
+
+.bottom-header .navbar {
+    margin-bottom: 0;
+    border: none
+}
+
+header .bottom-header .navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+header .navbar-default .navbar-toggle {
+    border-color: transparent;
+    background-color: transparent;
+    margin-top: 17px
+}
+
+header .navbar-navigation {
+    margin-left: auto
+}
+
+.dropdown-toggle:after {
+    display: none
+}
+
+header .bottom-header .navbar-default .navbar-brand {
+    padding: 21px 0 8px;
+    height: initial;
+    transition-duration: 0s;
+    margin-left: 0
+}
+
+header .bottom-header .navbar-default .navbar-nav>li>a {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+    line-height: 31px;
+    padding: 25px 15px;
+    transition-duration: .15s
+}
+
+.bottom-header .navbar-default .navbar-nav>.active>a,
+.bottom-header .navbar-default .navbar-nav>.active>a:hover,
+.bottom-header .navbar-default .navbar-nav>.active>a:focus {
+    background-color: #c7081b;
+    color: #fff
+}
+
+.bottom-header .navbar-default .navbar-nav>li>a:hover {
+    background-color: #c7081b
+}
+
+header .container .navbar-default .container-fluid {
+    padding: 0
+}
+
+header.affix {
+    top: -30px;
+    position: fixed
+}
+
+header.affix .bottom-header .navbar-default .navbar-brand {
+    padding: 11px 0 0 15px;
+    height: 59px
+}
+
+header.affix .container .navbar {
+    min-height: 0;
+    margin-top: 0
+}
+
+header.affix .container .navbar .navbar-brand img {
+    height: 50px;
+    width: auto;
+    margin-top: -2px
+}
+
+header.affix .container .navbar .navbar-nav li a {
+    line-height: 10px;
+    padding: 28px 10px 21px;
+    font-size: 12px;
+    transition-duration: .15s
+}
+
+header .nav .open>a,
+header .nav .open>a:hover,
+header .nav .open>a:focus,
+header .navbar-default .navbar-nav>.open>a,
+header .navbar-default .navbar-nav>.open>a:hover,
+header .navbar-default .navbar-nav>.open>a:focus {
+    background-color: #c7081b;
+    color: #fff
+}
+
+header .navbar-default .navbar-nav>.dropdown>a .caret,
+header .navbar-default .navbar-nav .dropdown a .caret {
+    display: none;
+    border-top-color: #fff;
+    border-bottom-color: #fff
+}
+
+.navbar-default .navbar-nav>.dropdown>a:hover .caret,
+.navbar-default .navbar-nav>.dropdown>a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333
+}
+
+header .navbar-nav.pull-right>li>.dropdown-menu,
+header .navbar-nav>li>.dropdown-menu {
+    left: 0;
+    background: rgba(0, 0, 0, .65);
+    right: auto;
+    margin-left: 0;
+    font-size: 13px;
+    font-weight: 400;
+    color: #fff
+}
+
+header .navbar-nav li.dropdown:hover>.dropdown-menu {
+    display: block
+}
+
+header .navbar-nav li.dropdown .dropdown-menu li.dropdown .dropdown-menu {
+    display: none
+}
+
+header .navbar-nav li.dropdown .dropdown-menu li.dropdown:hover>.dropdown-menu {
+    display: block
+}
+
+header .navbar-nav>li>.dropdown-menu>li>a {
+    padding: 9px 20px;
+    color: #fff
+}
+
+header.affix .dropdown .dropdown-menu li.dropdown .dropdown-menu>li>a {
+    font-size: 12px
+}
+
+header .navbar-nav li.dropdown .dropdown-menu li.dropdown.other_side .dropdown-menu,
+.dropdown .dropdown-menu li.dropdown.other_side .dropdown-menu {
+    left: -95%;
+    right: 100%;
+    transition-duration: 0s !important
+}
+
+.navbar-collapse.in,
+.navbar-collapse.collapse,
+.navbar-collapse.collapsing {
+    border: none;
+    box-shadow: none
+}
+
+.navbar-collapse.in {
+    height: 100%;
+    max-height: 100%
+}
+
+.navbar .navbar-nav li .dropdown-menu>li>a {
+    font-weight: 600;
+    font-size: 13px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    transition-duration: .15s
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus,
+.navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+.navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus {
+    color: #fff;
+    background-color: transparent
+}
+
+header.affix .container .navbar .navbar-nav li .dropdown-menu>li>a {
+    padding: 9px 8px
+}
+
+header.affix-top .bottom-header .navbar-default .logo .primary_text {
+    margin-top: 3px
+}
+
+header .bottom-header .navbar-default .navbar-brand .logo .primary_text {
+    font-family: 'Yellowtail', cursive;
+    color: #fff;
+    font-size: 40px;
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-right: 5px;
+    transition-duration: 0s
+}
+
+header .bottom-header .navbar-default .logo .secondary_text {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+    transition-duration: 0s
+}
+
+header.affix .bottom-header .navbar-default .logo .primary_text {
+    font-size: 34px;
+    margin-bottom: 0;
+    margin-top: 5px
+}
+
+header.affix .bottom-header .navbar-default .logo .secondary_text {
+    font-size: 8px
+}
+
+header .toolbar button {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0;
+    color: #929596;
+    border-radius: 0;
+    font-size: 14px;
+    vertical-align: baseline
+}
+
+.toolbar input.search_box::-webkit-input-placeholder {
+    transition: color 0s linear;
+    color: inherit
+}
+
+.toolbar input.search_box:hover:-moz-placeholder {
+    transition: color 0s linear;
+    color: inherit
+}
+
+.toolbar input.search_box:hover:-ms-input-placeholder {
+    transition: color 0s linear;
+    color: inherit
+}
+
+.left-none li a i:hover {
+    color: #fff
+}
+
+.dropdown-menu>li>a:hover,
+.dropdown-menu>li>a:focus {
+    background-color: #c7081b
+}
+
+.dropdown-menu {
+    padding: 0;
+    margin: 0
+}
+
+.dropdown .dropdown-menu li.dropdown .dropdown-menu {
+    background: rgba(0, 0, 0, .65);
+    top: 0;
+    left: 100%;
+    right: initial;
+    margin: 0;
+    padding: 0
+}
+
+.dropdown .dropdown-menu li.dropdown .dropdown-menu>li>a {
+    color: #fff;
+    padding: 9px 21px;
+    font-weight: 600;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif
+}
+
+.dropdown .dropdown-menu li.dropdown .dropdown-menu:before {
+    content: "";
+    border: none
+}
+
+.dropdown .dropdown-menu li.dropdown .dropdown-menu>li:first-of-type>a {
+    border-radius: 4px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0
+}
+
+.mobile-menu-main-menu-container .dropdown .dropdown-menu li.dropdown .dropdown-menu>li:first-of-type>a {
+    border-radius: 0
+}
+
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:hover,
+.dropdown-menu>.active>a:focus,
+.navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+.navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover {
+    background-color: #c7081b
+}
+
+.dropdown-menu>li:last-of-type>a {
+    border-radius: 4px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0
+}
+
+.navigation {
+    width: 100%;
+    top: 0
+}

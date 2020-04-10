@@ -1,16 +1,16 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[48],{
 
-/***/ "../coreui/src/views/menu/EditMenu.vue":
-/*!*********************************************!*\
-  !*** ../coreui/src/views/menu/EditMenu.vue ***!
-  \*********************************************/
+/***/ "../coreui/src/views/icons/Flags.vue":
+/*!*******************************************!*\
+  !*** ../coreui/src/views/icons/Flags.vue ***!
+  \*******************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _EditMenu_vue_vue_type_template_id_4f3f97bf___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./EditMenu.vue?vue&type=template&id=4f3f97bf& */ "../coreui/src/views/menu/EditMenu.vue?vue&type=template&id=4f3f97bf&");
-/* harmony import */ var _EditMenu_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./EditMenu.vue?vue&type=script&lang=js& */ "../coreui/src/views/menu/EditMenu.vue?vue&type=script&lang=js&");
+/* harmony import */ var _Flags_vue_vue_type_template_id_9bcb26d0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Flags.vue?vue&type=template&id=9bcb26d0& */ "../coreui/src/views/icons/Flags.vue?vue&type=template&id=9bcb26d0&");
+/* harmony import */ var _Flags_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Flags.vue?vue&type=script&lang=js& */ "../coreui/src/views/icons/Flags.vue?vue&type=script&lang=js&");
 /* empty/unused harmony star reexport *//* harmony import */ var _laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../laravel/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -20,9 +20,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 
 var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _EditMenu_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _EditMenu_vue_vue_type_template_id_4f3f97bf___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _EditMenu_vue_vue_type_template_id_4f3f97bf___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  _Flags_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Flags_vue_vue_type_template_id_9bcb26d0___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Flags_vue_vue_type_template_id_9bcb26d0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
   false,
   null,
   null,
@@ -32,64 +32,53 @@ var component = Object(_laravel_node_modules_vue_loader_lib_runtime_componentNor
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "coreui/src/views/menu/EditMenu.vue"
+component.options.__file = "coreui/src/views/icons/Flags.vue"
 /* harmony default export */ __webpack_exports__["default"] = (component.exports);
 
 /***/ }),
 
-/***/ "../coreui/src/views/menu/EditMenu.vue?vue&type=script&lang=js&":
-/*!**********************************************************************!*\
-  !*** ../coreui/src/views/menu/EditMenu.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************/
+/***/ "../coreui/src/views/icons/Flags.vue?vue&type=script&lang=js&":
+/*!********************************************************************!*\
+  !*** ../coreui/src/views/icons/Flags.vue?vue&type=script&lang=js& ***!
+  \********************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_EditMenu_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./EditMenu.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/menu/EditMenu.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_EditMenu_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_Flags_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/babel-loader/lib??ref--4-0!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./Flags.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/icons/Flags.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_laravel_node_modules_babel_loader_lib_index_js_ref_4_0_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_Flags_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
-/***/ "../coreui/src/views/menu/EditMenu.vue?vue&type=template&id=4f3f97bf&":
-/*!****************************************************************************!*\
-  !*** ../coreui/src/views/menu/EditMenu.vue?vue&type=template&id=4f3f97bf& ***!
-  \****************************************************************************/
+/***/ "../coreui/src/views/icons/Flags.vue?vue&type=template&id=9bcb26d0&":
+/*!**************************************************************************!*\
+  !*** ../coreui/src/views/icons/Flags.vue?vue&type=template&id=9bcb26d0& ***!
+  \**************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_EditMenu_vue_vue_type_template_id_4f3f97bf___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./EditMenu.vue?vue&type=template&id=4f3f97bf& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/menu/EditMenu.vue?vue&type=template&id=4f3f97bf&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_EditMenu_vue_vue_type_template_id_4f3f97bf___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+/* harmony import */ var _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_Flags_vue_vue_type_template_id_9bcb26d0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../laravel/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../laravel/node_modules/vue-loader/lib??vue-loader-options!./Flags.vue?vue&type=template&id=9bcb26d0& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/icons/Flags.vue?vue&type=template&id=9bcb26d0&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_Flags_vue_vue_type_template_id_9bcb26d0___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_EditMenu_vue_vue_type_template_id_4f3f97bf___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _laravel_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_laravel_node_modules_vue_loader_lib_index_js_vue_loader_options_Flags_vue_vue_type_template_id_9bcb26d0___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/menu/EditMenu.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/menu/EditMenu.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/icons/Flags.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/icons/Flags.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../coreui/node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
+/* harmony import */ var _coreui_icons__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @coreui/icons */ "../coreui/node_modules/@coreui/icons/js/index.js");
 //
 //
 //
@@ -124,106 +113,26 @@ __webpack_require__.r(__webpack_exports__);
 //
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: 'TheSidebar',
-  data: function data() {
-    return {
-      isRoleSelected: false,
-      roleSelected: 'guest',
-      roles: [],
-      buffor: [],
-      tableData: [],
-      fields: ['assigned', 'dropdown', 'slug', 'name'],
-      thisMenuRole: null
-    };
-  },
-  methods: {
-    addElementToBuffor: function addElementToBuffor(data, icon) {
-      this.buffor.push({
-        dropdown: icon,
-        name: data['name'],
-        id: data['id'],
-        slug: data['slug'],
-        assigned: data['assigned']
-      });
-    },
-    innerBuildArrayData: function innerBuildArrayData(data, deep) {
-      for (var i = 0; i < data.length; i++) {
-        switch (data[i]['slug']) {
-          case 'link':
-            if (deep > 1) {
-              this.addElementToBuffor(data[i], true);
-            } else {
-              this.addElementToBuffor(data[i], false);
-            }
-
-            break;
-
-          case 'title':
-            this.addElementToBuffor(data[i], false);
-            break;
-
-          case 'dropdown':
-            this.addElementToBuffor(data[i], false);
-            this.innerBuildArrayData(data[i]['elements'], deep + 1);
-            break;
-        }
-      }
-    },
-    buildArrayData: function buildArrayData(data) {
-      this.buffor = [];
-      this.innerBuildArrayData(data, 1);
-      return this.buffor;
-    },
-    selectRole: function selectRole() {
-      var self = this;
-      console.log(this.roleSelected);
-      axios__WEBPACK_IMPORTED_MODULE_0___default.a.get('/api/menu/edit/selected?token=' + localStorage.getItem("api_token") + '&role=' + this.roleSelected).then(function (response) {
-        self.tableData = self.buildArrayData(response.data.menuToEdit);
-        self.thisMenuRole = response.data.role;
-        self.isRoleSelected = true;
-      })["catch"](function (error) {
-        console.log(error);
-        self.$router.push({
-          path: '/login'
-        });
-      });
-    },
-    toggleElement: function toggleElement(id) {
-      var self = this;
-      axios__WEBPACK_IMPORTED_MODULE_0___default.a.get('/api/menu/edit/selected/switch?token=' + localStorage.getItem("api_token") + '&role=' + this.thisMenuRole + '&id=' + id).then(function (response) {
-        self.selectRole();
-      })["catch"](function (error) {
-        console.log(error);
-        self.$router.push({
-          path: '/login'
-        });
-      });
+  name: 'Flags',
+  flagSet: _coreui_icons__WEBPACK_IMPORTED_MODULE_0__["flagSet"],
+  computed: {
+    displayedFlags: function displayedFlags() {
+      return this.$options.flagSet;
     }
   },
-  mounted: function mounted() {
-    var _this = this;
-
-    this.$root.$on('toggle-sidebar', function () {
-      return _this.show = !_this.show;
-    });
-    var self = this;
-    axios__WEBPACK_IMPORTED_MODULE_0___default.a.get('/api/menu/edit?token=' + localStorage.getItem("api_token")).then(function (response) {
-      self.roles = response.data.roles;
-    })["catch"](function (error) {
-      console.log(error);
-      self.$router.push({
-        path: '/login'
-      });
-    });
+  methods: {
+    toKebabCase: function toKebabCase(str) {
+      return str.replace(/([a-z])([A-Z0-9])/g, '$1-$2').toLowerCase();
+    }
   }
 });
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/menu/EditMenu.vue?vue&type=template&id=4f3f97bf&":
-/*!**********************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/menu/EditMenu.vue?vue&type=template&id=4f3f97bf& ***!
-  \**********************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!../coreui/src/views/icons/Flags.vue?vue&type=template&id=9bcb26d0&":
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!../coreui/src/views/icons/Flags.vue?vue&type=template&id=9bcb26d0& ***!
+  \********************************************************************************************************************************************************************************************************/
 /*! exports provided: render, staticRenderFns */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -236,135 +145,49 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c(
-    "CRow",
+    "div",
     [
       _c(
-        "CCol",
-        { attrs: { col: "12", xl: "6" } },
+        "CCard",
         [
           _c(
-            "transition",
-            { attrs: { name: "slide" } },
+            "CCardHeader",
+            [
+              _c("CIcon", { attrs: { name: "cil-globe-alt" } }),
+              _vm._v(" Flags\n    ")
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "CCardBody",
             [
               _c(
-                "CCard",
+                "CRow",
+                { staticClass: "text-center" },
                 [
-                  _c("CCardBody", [
-                    !_vm.isRoleSelected
-                      ? _c(
-                          "div",
-                          [
-                            _c("CSelect", {
-                              attrs: {
-                                value: _vm.roleSelected,
-                                options: _vm.roles,
-                                label: "Select role assigned to menu"
-                              },
-                              on: {
-                                "update:value": function($event) {
-                                  _vm.roleSelected = $event
-                                }
-                              }
-                            }),
-                            _vm._v(" "),
-                            _c(
-                              "CButton",
-                              {
-                                attrs: { color: "primary" },
-                                on: {
-                                  click: function($event) {
-                                    return _vm.selectRole()
-                                  }
-                                }
-                              },
-                              [_vm._v("Edit")]
-                            )
-                          ],
-                          1
-                        )
-                      : _c(
-                          "div",
-                          [
-                            _c("CDataTable", {
-                              attrs: {
-                                hover: "",
-                                items: _vm.tableData,
-                                fields: _vm.fields
-                              },
-                              scopedSlots: _vm._u([
-                                {
-                                  key: "assigned",
-                                  fn: function(ref) {
-                                    var item = ref.item
-                                    return [
-                                      item.assigned
-                                        ? _c(
-                                            "td",
-                                            [
-                                              _c(
-                                                "CButton",
-                                                {
-                                                  attrs: { color: "primary" },
-                                                  on: {
-                                                    click: function($event) {
-                                                      return _vm.toggleElement(
-                                                        item.id
-                                                      )
-                                                    }
-                                                  }
-                                                },
-                                                [_vm._v("Hide")]
-                                              )
-                                            ],
-                                            1
-                                          )
-                                        : _c(
-                                            "td",
-                                            [
-                                              _c(
-                                                "CButton",
-                                                {
-                                                  attrs: { color: "danger" },
-                                                  on: {
-                                                    click: function($event) {
-                                                      return _vm.toggleElement(
-                                                        item.id
-                                                      )
-                                                    }
-                                                  }
-                                                },
-                                                [_vm._v("Show")]
-                                              )
-                                            ],
-                                            1
-                                          )
-                                    ]
-                                  }
-                                },
-                                {
-                                  key: "dropdown",
-                                  fn: function(ref) {
-                                    var item = ref.item
-                                    return [
-                                      _c("td", [
-                                        item.dropdown
-                                          ? _c("i", {
-                                              staticClass:
-                                                "cui-chevron-right icons font-2xl d-block"
-                                            })
-                                          : _vm._e()
-                                      ])
-                                    ]
-                                  }
-                                }
-                              ])
-                            })
-                          ],
-                          1
-                        )
-                  ])
+                  _c("CCol", { staticClass: "mb-5", attrs: { col: "12" } }),
+                  _vm._v(" "),
+                  _vm._l(_vm.displayedFlags, function(flag, flagName) {
+                    return [
+                      _c(
+                        "CCol",
+                        {
+                          key: flagName,
+                          staticClass: "mb-5",
+                          attrs: { col: "3", sm: "2" }
+                        },
+                        [
+                          _c("CIcon", { attrs: { height: 42, content: flag } }),
+                          _vm._v(" "),
+                          _c("div", [_vm._v(_vm._s(_vm.toKebabCase(flagName)))])
+                        ],
+                        1
+                      )
+                    ]
+                  })
                 ],
-                1
+                2
               )
             ],
             1
