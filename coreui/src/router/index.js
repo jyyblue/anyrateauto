@@ -97,7 +97,7 @@ const Media = () => import('@/views/media/Media')
 //frontEnd
 
 const Layout = () => import('@/front/layout/Layout')
-const HomePage = () => import('@/front/pages/HomePage')
+const HomePage = () => import('@/front/pages/home/HomePage')
 
 
 
@@ -118,9 +118,35 @@ function configRoutes () {
       name: 'FrontHome',
       component: Layout,
       children: [
-        
+        {
+          path: '/',
+          name: 'Home Page',
+          component: HomePage
+        },
       ]
     },
+    {
+      path: '/',
+      name: 'Auth',
+      component: {
+        render (c) { return c('router-view') }
+      },
+      children: [
+        {
+          path: 'login',
+          name: 'Login',
+          component: Login
+        },
+        {
+          path: 'register',
+          name: 'Register',
+          component: Register
+        },
+      ]
+        
+
+    },
+
     {
       path: '/',
       redirect: '/dashboard',

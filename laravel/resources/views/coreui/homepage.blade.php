@@ -23,36 +23,26 @@
             'csrfToken' => csrf_token(),
         ]) !!};
     </script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key="></script>
 
+    <script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+
+    
+    <script type="text/javascript" src="js/extensions/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="js/extensions/revolution.extension.carousel.min.js"></script>
+    <script type="text/javascript" src="js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="js/extensions/revolution.extension.migration.min.js"></script>
+    <script type="text/javascript" src="js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="js/extensions/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="js/extensions/revolution.extension.video.min.js"></script>
+   
   </head>
-
-  <!-- BODY options, add following classes to body to change options
-
-  // Header options
-  1. '.header-fixed'					- Fixed Header
-
-  // Brand options
-  1. '.brand-minimized'       - Minimized brand (Only symbol)
-
-  // Sidebar options
-  1. '.sidebar-fixed'					- Fixed Sidebar
-  2. '.sidebar-hidden'				- Hidden Sidebar
-  3. '.sidebar-off-canvas'		- Off Canvas Sidebar
-  4. '.sidebar-minimized'			- Minimized Sidebar (Only icons)
-  5. '.sidebar-compact'			  - Compact Sidebar
-
-  // Aside options
-  1. '.aside-menu-fixed'			- Fixed Aside Menu
-  2. '.aside-menu-hidden'			- Hidden Aside Menu
-  3. '.aside-menu-off-canvas'	- Off Canvas Aside Menu
-
-  // Breadcrumb options
-  1. '.breadcrumb-fixed'			- Fixed Breadcrumb
-
-  // Footer options
-  1. '.footer-fixed'					- Fixed footer
-
-  -->
 
   <body>
     <noscript>
@@ -60,8 +50,26 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    
 
     <script src="{{ asset('js/app.js') }}"></script>
+
+
+     
+    <script src="js/retina.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax.js"></script>
+    <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+    <!-- <script src="js/main.js"></script> -->
+    <script type="text/javascript" src="js/jquery.fancybox.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script defer src="js/jquery.flexslider.js"></script>
+    <script src="js/jquery.bxslider.js" type="text/javascript"></script>
+    <script src="js/jquery.selectbox-0.2.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.js"></script>
+    
+
+
 
   </body>
 </html>

@@ -1,14 +1,51 @@
 <template>
-  <CFooter :fixed="false">
-    <div>
-      <a href="https://coreui.io" target="_blank">CoreUI</a>
-      <span class="ml-1">&copy; {{new Date().getFullYear()}} creativeLabs.</span>
+  <footer class="design_2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 padding-left-none md-padding-left-none sm-padding-left-15 xs-padding-left-15">
+                <h4>newsletter</h4>
+                <p>By subscribing to our company newsletter
+                    you will always be up-to-date on our latest
+                    promotions, deals and vehicle inventory!</p>
+                <form method="post" action="#" class="form_contact">
+                    <input type="text" value="" name="MERGE0" placeholder="Email Address">
+                    <input type="submit" value="Subscribe" class="md-button">
+                    <input type="hidden" name="u" value="">
+                    <input type="hidden" name="id" value="">
+                </form>
+                </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <h4>Latest tweets</h4>
+                <div class="latest-tweet">
+                    <div><i class="fa fa-twitter"></i>
+                        <p>Put your tweet message here.  Make it
+                            compelling to attract other <a href="#">@people</a> to
+                            read and click on your <a href="#">http://links</a> to
+                            your site. <a href="#">#hashtag</a></p>
+                    </div>
+                    <div><i class="fa fa-twitter"></i>
+                        <p>Put your tweet message here.  Make it
+                            compelling to attract other <a href="#">@people</a> to
+                            read and click on your <a href="#">http://links</a> to
+                            your site. <a href="#">#hashtag</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 padding-right-none md-padding-right-none sm-padding-right-15 xs-padding-right-15">
+                <h4>Contact us</h4>
+                <div class="footer-contact">
+                    <ul>
+                        <li><i class="fa fa-map-marker"></i> <strong>Address:</strong> 1234 Street Name, City Name, AB 12345</li>
+                        <li><i class="fa fa-phone"></i> <strong>Phone:</strong>1-800-123-4567</li>
+                        <li><i class="fa fa-envelope-o"></i> <strong>Email:</strong><a href="#">sales@company.com</a></li>
+                    </ul>
+
+                    <i class="fa fa-location-arrow back_icon"></i>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="ml-auto">
-      <span class="mr-1">Powered by</span>
-      <a href="https://coreui.io/vue" target="_blank">CoreUI for Vue</a>
-    </div>
-  </CFooter>
+</footer>
 </template>
 
 <script>
