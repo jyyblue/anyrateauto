@@ -48,9 +48,9 @@
                 // Append file into FormData & turn file into image URL            
                     let formData = new FormData()            
                     let imageURL = URL.createObjectURL(imageFile)           
-                    formData.append(fieldName, imageFile)
+                    formData.append('image', imageFile)
                     // Emit FormData & image URL to the parent component            
-                    this.$emit('input', { formData, imageURL })          
+                    this.$emit('input', { formData, imageURL ,imageFile})          
                     }        
                 }      
             }    

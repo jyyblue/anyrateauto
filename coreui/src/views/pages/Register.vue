@@ -281,15 +281,6 @@
         }
       },
       methods: {
-        onChange (image) {
-          console.log('New picture selected!')
-          if (image) {
-            console.log('Picture loaded.')
-            this.image = image
-          } else {
-            console.log('FileReader API not supported: use the <form>, Luke!')
-          }
-        },
         onSubmit: function () {
           this.$refs.invisibleRecaptcha.execute()
         },
@@ -305,6 +296,7 @@
           this.$refs.recaptcha.reset() // Direct call reset method
         },
         register_customer() {
+          console.log('customer');
           var self = this;
           axios.post(  '/api/register', {
             first_name: self.first_name,
@@ -327,13 +319,22 @@
         },
         register_technique() {
           var self = this;
-          axios.post(  '/api/register', {
-            first_name: self.first_name,
-            last_name: self.last_name,
-            email: self.email,
-            password: self.password,
-            password_confirmation: self.password_confirmation
-          }).then(function (response) {
+          console.log(self.avatar); 
+          const config = {
+              headers: { 'content-type': 'multipart/form-data' }
+          }
+          let formData = new FormData();
+          formData.append('image', self.avatar.imageFile);
+          formData.append('first_name', self.first_name);
+          formData.append('last_name', self.last_name);
+          formData.append('name', self.first_name + ""  + self.last_name);
+          formData.append('email', self.email);
+          formData.append('role', 'technique');
+          formData.append('password', self.password);
+          formData.append('password_confirmation', self.password_confirmation);
+
+          axios.post('/api/register', formData, config)
+          .then(function (response) {
             self.name = '';
             self.email = '';
             self.password = '';

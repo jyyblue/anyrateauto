@@ -11,6 +11,7 @@ use Symfony\Component\HttpFoundation\Response as Response;
 use App\Enums\Error;
 use App\Enums\UserStatus;
 use App\Enums\UserRole;
+use File;
 
 class AuthController extends Controller
 { 
@@ -38,9 +39,12 @@ class AuthController extends Controller
         ]);        
         if ($validate->fails()){
             return response()->json([
-                'validation' => $validator->errors()
+                'validation' => $validate->errors()
             ], Response::HTTP_UNPROCESSABLE_ENTITY);
-        }        
+        }
+
+
+
         $user = new User;
         $user->name = $request->name;
         $user->email = $request->email;
@@ -48,6 +52,16 @@ class AuthController extends Controller
         $user->status = UserStatus::Inactive;
         $user->menuroles = $request->role;
         $user->save();
+
+        $user_id = $user->id;
+        $path = public_path().'/img/avatars/' . $user_id;
+        if(!File::exists($path)) {
+            File::makeDirectory($path, $mode = 0777, true, true);
+        }
+        $avatar = $request->file('image');
+        $imageName = 'avatar.'.$avatar->getClientOriginalExtension();
+        $request->image->move($path, $imageName);
+
         return response()->json(['status' => 'success','user' => $user], Response::HTTP_OK);
     } 
 
