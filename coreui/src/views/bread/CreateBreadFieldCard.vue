@@ -93,11 +93,13 @@ export default {
     selectCheckbox(slug){
       switch(slug){
         case 'browse':
+          console.log('browse b', this.browse);
           if(this.browse == true){
             this.browse = false
           }else{
             this.browse = true
           }
+          console.log('browse a', this.browse);
         break;
         case 'read':
           if(this.read == true){

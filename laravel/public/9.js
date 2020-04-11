@@ -527,12 +527,15 @@ __webpack_require__.r(__webpack_exports__);
     selectCheckbox: function selectCheckbox(slug) {
       switch (slug) {
         case 'browse':
+          console.log('browse b', this.browse);
+
           if (this.browse == true) {
             this.browse = false;
           } else {
             this.browse = true;
           }
 
+          console.log('browse a', this.browse);
           break;
 
         case 'read':

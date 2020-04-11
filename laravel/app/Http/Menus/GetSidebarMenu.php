@@ -31,8 +31,16 @@ class GetSidebarMenu implements MenuInterface{
         $this->getMenuFromDB(1, 'guest');
     }
 
-    private function getUserMenu(){
-        $this->getMenuFromDB(1, 'user');
+    private function getSubAdminMenu(){
+        $this->getMenuFromDB(1, 'subadmin');
+    }
+
+    private function getCustomerMenu(){
+        $this->getMenuFromDB(1, 'customer');
+    }
+
+    private function getTechniqueMenu(){
+        $this->getMenuFromDB(1, 'technique');
     }
 
     private function getAdminMenu(){
@@ -51,7 +59,11 @@ class GetSidebarMenu implements MenuInterface{
             $this->getDevMenu();
         }elseif(in_array('admin', $roles)){
             $this->getAdminMenu();
-        }elseif(in_array('user', $roles)){
+        }elseif(in_array('customer', $roles)){
+            $this->getUserMenu();
+        }elseif(in_array('technique', $roles)){
+            $this->getUserMenu();
+        }elseif(in_array('subadmin', $roles)){
             $this->getUserMenu();
         }else{
             $this->getGuestMenu();

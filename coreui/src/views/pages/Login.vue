@@ -2,6 +2,7 @@
   <CContainer class="d-flex content-center min-vh-100">
     <CRow>
       <CCol>
+        <p class="text-danger" >{{ message }}</p>
         <CCardGroup>
           <CCard class="p-4">
             <CCardBody>
@@ -81,18 +82,27 @@ import axios from "axios";
           axios.post(  '/api/login', {
             email: self.email,
             password: self.password,
+          },{
+            validateStatus: function (status) {
+              return status < 500; // Reject only if the status code is greater than or equal to 500
+            }
           }).then(function (response) {
-            self.email = '';
-            self.password = '';
-            localStorage.setItem("api_token", response.data.access_token);
-            self.$router.push({ path: 'notes' });
+            console.log(response);
+            var status = response.status;
+            if(status == 200){
+              self.email = '';
+              self.password = '';
+              localStorage.setItem("api_token", response.data.access_token);
+              self.$router.push({ path: 'dashboard' });
+            }else{
+              self.message = 'Incorrect E-mail or password';
+              self.showMessage = true;
+              console.log(error);
+            }
           })
           .catch(function (error) {
-            self.message = 'Incorrect E-mail or password';
-            self.showMessage = true;
-            console.log(error);
+
           });
-  
         }
       }
     }

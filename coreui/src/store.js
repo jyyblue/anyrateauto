@@ -4,7 +4,8 @@ Vue.use(Vuex)
 
 const state = {
   sidebarShow: 'responsive',
-  sidebarMinimize: false
+  sidebarMinimize: false,
+  RECAPTCHA_SITE_KEY:"6LeKYugUAAAAAH6CArdCzWCut7DesdKzNzwxwAYm",
 }
 
 const mutations = {
@@ -23,5 +24,5 @@ const mutations = {
 
 export default new Vuex.Store({
   state,
-  mutations
+  mutations,
 })
