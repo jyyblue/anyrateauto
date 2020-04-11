@@ -945,17 +945,17 @@ __webpack_require__.r(__webpack_exports__);
         $(".nav-tabs li").removeClass("active");
         $(this).parent().addClass("active");
       }); // parallax effect
-      // if($(".parallax_scroll").length){
-      //     console.log('j');
-      //     $(".parallax_scroll").parallax({ speed: 0.15 });
-      //     /*$(".parallax_scroll").each( function(index, element){
-      //         $(this).scrolly({ bgParallax: true });
-      //     });*/
-      //     $(".parallax_parent").each( function(){
-      //         $(this).height($(this).find(".parallax_scroll").height());
-      //     });
-      // }
-      // $( window ).resize( debouncer( function ( e ) {
+
+      if ($(".parallax_scroll").length) {
+        //     console.log('j');
+        //     $(".parallax_scroll").parallax({ speed: 0.15 });
+        //     /*$(".parallax_scroll").each( function(index, element){
+        //         $(this).scrolly({ bgParallax: true });
+        //     });*/
+        $(".parallax_parent").each(function () {
+          $(this).height($(this).find(".parallax_scroll").height());
+        });
+      } // $( window ).resize( debouncer( function ( e ) {
       //     $(".parallax_parent").each( function(){
       //         $(this).height($(this).find(".parallax_scroll").height());
       //     });
@@ -964,6 +964,7 @@ __webpack_require__.r(__webpack_exports__);
       /************************
       *  animate number part  *
       *************************/
+
 
       function animate_number(el, value) {
         var original = value;
@@ -1475,25 +1476,24 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'Slider',
   mounted: function mounted() {
     var revapi;
     jQuery(document).ready(function () {
-      console.log('herere');
-      console.log(jQuery("#rev_slider")); // revapi = $("#rev_slider").revolution({
-      //     sliderType:"standard",
-      //     sliderLayout:"fullwidth",
-      //     delay:9000,
-      //     navigation: {
-      //         arrows:{enable:true}
-      //     },
-      //     gridwidth:1170,
-      //     gridheight:645
-      // });
-
+      console.log(jQuery("#rev_slider"));
+      revapi = jQuery("#rev_slider").revolution({
+        sliderType: "standard",
+        sliderLayout: "fullwidth",
+        delay: 9000,
+        navigation: {
+          arrows: {
+            enable: true
+          }
+        },
+        gridwidth: 1170,
+        gridheight: 645
+      });
       console.log(revapi);
     });
     /*ready*/

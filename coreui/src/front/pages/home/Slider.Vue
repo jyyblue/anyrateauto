@@ -279,10 +279,8 @@
                     </li>
                 </ul>
             </div><!-- END REVOLUTION SLIDER -->
-        </div><!-- END REVOLUTION SLIDER WRAPPER -->
-
-      
-
+        </div>
+        <!-- END REVOLUTION SLIDER WRAPPER -->
     </div>
 </section>
 </template>
@@ -290,24 +288,19 @@
 export default {
   name: 'Slider',
   mounted() {
-     
         var revapi;
         jQuery(document).ready(function() {
-            console.log('herere');
-            console.log(jQuery("#rev_slider"));
-            // revapi = $("#rev_slider").revolution({
-            //     sliderType:"standard",
-            //     sliderLayout:"fullwidth",
-            //     delay:9000,
-            //     navigation: {
-            //         arrows:{enable:true}
-            //     },
-            //     gridwidth:1170,
-            //     gridheight:645
-            // });
-            console.log(revapi);
-        }); /*ready*/
-   
+            revapi = jQuery("#rev_slider").revolution({
+                sliderType:"standard",
+                sliderLayout:"fullwidth",
+                delay:9000,
+                navigation: {
+                    arrows:{enable:true}
+                },
+                gridwidth:1170,
+                gridheight:645
+            });
+        });
   }
 }
 </script>

@@ -1,4 +1,585 @@
-<template>
+<!doctype html>
+<!--[if IE 7 ]> <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8 ]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9 ]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<!-- Mirrored from demo.themesuite.com/automotive/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 Apr 2020 23:28:32 GMT -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="images/favicon.ico">
+<title>Automotive Car Dealership &amp; Business HTML Template</title>
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Yellowtail%7COpen%20Sans%3A400%2C300%2C600%2C700%2C800" media="screen" />
+<!-- Custom styles for this template -->
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/jquery.bxslider.css" type="text/css" media="screen" />
+<link href="css/jquery.fancybox.css" rel="stylesheet">
+<link href="css/jquery.selectbox.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/mobile.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/settings.css" media="screen" />
+<link href="css/animate.min.css" rel="stylesheet">
+<link href="css/ts.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key="></script>
+
+<script type="text/javascript" src="js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+
+<!-- SLIDER REVOLUTION 5.0 EXTENSIONS
+            (Load Extensions only on Local File Systems !
+            The following part can be removed on Server for On Demand Loading) -->
+<script type="text/javascript" src="js/extensions/revolution.extension.actions.min.js"></script>
+<script type="text/javascript" src="js/extensions/revolution.extension.carousel.min.js"></script>
+<script type="text/javascript" src="js/extensions/revolution.extension.kenburn.min.js"></script>
+<script type="text/javascript" src="js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="js/extensions/revolution.extension.migration.min.js"></script>
+<script type="text/javascript" src="js/extensions/revolution.extension.navigation.min.js"></script>
+<script type="text/javascript" src="js/extensions/revolution.extension.parallax.min.js"></script>
+<script type="text/javascript" src="js/extensions/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="js/extensions/revolution.extension.video.min.js"></script>
+
+<!-- Twitter Feed Scripts
+     Uncomment to activate
+
+<script type="text/javascript" src="js/twitter/jquery.tweet.js"></script>
+<script type="text/javascript" src="js/twitter/twitter_feed.js"></script> -->
+
+</head>
+
+<body>
+<!--Header Start-->
+<header  data-spy="affix" data-offset-top="1" class="clearfix">
+    <section class="toolbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 left_bar">
+                    <ul class="left-none">
+                        <li><a href="#"><i class="fa fa-user"></i> Login</a></li>
+                        <li><a href="#"><i class="fa fa-globe"></i> Languages</a></li>
+                        <li><i class="fa fa-search"></i>
+                            <input type="search" placeholder="Search" class="search_box">
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 ">
+                    <ul class="right-none pull-right company_info">
+                        <li><a href="tel:18005670123"><i class="fa fa-phone"></i> 1-800-567-0123</a></li>
+                        <li class="address"><a href="contact.html"><i class="fa fa-map-marker"></i> 107 Sunset Blvd., Beverly Hills, CA  90210</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="toolbar_shadow"></div>
+    </section>
+    <div class="bottom-header" >
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-default" role="navigation">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse-mobile" aria-controls="navbar-collapse-mobile" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+
+                        <a class="navbar-brand" href="index-2.html"><span class="logo"><span class="primary_text">Automotive</span> <span class="secondary_text">Template</span></span></a> </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="desktop-menu-dropdown collapse navbar-collapse" id="navbar-collapse-desktop">
+                        <ul class="nav navbar-nav pull-right">
+                            <li class="active"><a href="index-2.html">Home</a></li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                     <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Alternate Footers <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="active"><a href="index-2.html">Footer 1</a></li>
+                                            <li><a href="index-footer-2.html">Footer 2</a></li>
+                                            <li><a href="index-footer-3.html">Footer 3</a></li>
+                                            <li><a href="index-footer-4.html">Footer 4</a></li>
+                                            <li><a href="index-footer-5.html">Footer 5</a></li>
+                                            <li><a href="index-footer-6.html">Footer 6</a></li>
+                                            <li><a href="index-no-footer.html">No Footer</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="404.html">404</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                    <li><a href="page-fullwidth.html">Fullwidth Page</a></li>
+                                    <li><a href="page-sidebar.html">Sidebar Page</a></li>
+                                    <li><a href="pricing-tables.html">Pricing Tables</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Inventory <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="demo.html">Select View Demo</a></li>
+                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Boxed Layout <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="inventory-boxed-fullwidth.html">Boxed Fullwidth</a></li>
+                                            <li><a href="inventory-boxed-sidebar-left.html">Boxed Sidebar Left</a></li>
+                                            <li><a href="inventory-boxed-sidebar-right.html">Boxed Sidebar Right</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Wide Layout <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="inventory-wide-fullwidth.html">Wide Fullwidth</a></li>
+                                            <li><a href="inventory-wide-sidebar-left.html">Wide Sidebar Left</a></li>
+                                            <li><a href="inventory-wide-sidebar-right.html">Wide Sidebar Right</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="inventory-listing.html">Individual Listing</a></li>
+                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Vehicle Comparison <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="inventory-2-listing-comparison.html">2 Listing Comparison</a></li>
+                                            <li><a href="inventory-3-listing-comparison.html">3 Listing Comparison</a></li>
+                                            <li><a href="inventory-4-listing-comparison.html">4 Listing Comparison</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="service.html">Services</a></li>
+                            <li><a href="our-team.html">Our Team</a></li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="portfolio-2-column.html">2 Column Portfolio</a></li>
+                                    <li><a href="portfolio-2-column-details.html">2 Column Portfolio Details</a></li>
+                                    <li><a href="portfolio-3-column.html">3 Column Portfolio</a></li>
+                                    <li><a href="portfolio-3-column-details.html">3 Column Portfolio Details</a></li>
+                                    <li><a href="portfolio-4-column.html">4 Column Portfolio</a></li>
+                                    <li><a href="portfolio-4-column-details.html">4 Column Portfolio Details</a></li>
+                                    <li><a href="portfolio-single-project-split.html">Portfolio Single Project Split</a></li>
+                                    <li><a href="portfolio-single-project-wide.html">Portfolio Single Project Wide</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="blog.html">Blog List</a></li>
+                                    <li><a href="blog-post.html">Blog Single Post</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="mobile-menu-dropdown collapse navbar-collapse" id="navbar-collapse-mobile">
+                        <ul class="nav navbar-nav pull-right">
+                            <li class="active"><a href="index-2.html">Home</a></li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                     <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Alternate Footers <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li class="active"><a href="index-2.html">Footer 1</a></li>
+                                            <li><a href="index-footer-2.html">Footer 2</a></li>
+                                            <li><a href="index-footer-3.html">Footer 3</a></li>
+                                            <li><a href="index-footer-4.html">Footer 4</a></li>
+                                            <li><a href="index-footer-5.html">Footer 5</a></li>
+                                            <li><a href="index-footer-6.html">Footer 6</a></li>
+                                            <li><a href="index-no-footer.html">No Footer</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="404.html">404</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                    <li><a href="page-fullwidth.html">Fullwidth Page</a></li>
+                                    <li><a href="page-sidebar.html">Sidebar Page</a></li>
+                                    <li><a href="pricing-tables.html">Pricing Tables</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Inventory <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="demo.html">Select View Demo</a></li>
+                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Boxed Layout <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="inventory-boxed-fullwidth.html">Boxed Fullwidth</a></li>
+                                            <li><a href="inventory-boxed-sidebar-left.html">Boxed Sidebar Left</a></li>
+                                            <li><a href="inventory-boxed-sidebar-right.html">Boxed Sidebar Right</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Wide Layout <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="inventory-wide-fullwidth.html">Wide Fullwidth</a></li>
+                                            <li><a href="inventory-wide-sidebar-left.html">Wide Sidebar Left</a></li>
+                                            <li><a href="inventory-wide-sidebar-right.html">Wide Sidebar Right</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="inventory-listing.html">Individual Listing</a></li>
+                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Vehicle Comparison <b class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="inventory-2-listing-comparison.html">2 Listing Comparison</a></li>
+                                            <li><a href="inventory-3-listing-comparison.html">3 Listing Comparison</a></li>
+                                            <li><a href="inventory-4-listing-comparison.html">4 Listing Comparison</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="service.html">Services</a></li>
+                            <li><a href="our-team.html">Our Team</a></li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="portfolio-2-column.html">2 Column Portfolio</a></li>
+                                    <li><a href="portfolio-2-column-details.html">2 Column Portfolio Details</a></li>
+                                    <li><a href="portfolio-3-column.html">3 Column Portfolio</a></li>
+                                    <li><a href="portfolio-3-column-details.html">3 Column Portfolio Details</a></li>
+                                    <li><a href="portfolio-4-column.html">4 Column Portfolio</a></li>
+                                    <li><a href="portfolio-4-column-details.html">4 Column Portfolio Details</a></li>
+                                    <li><a href="portfolio-single-project-split.html">Portfolio Single Project Split</a></li>
+                                    <li><a href="portfolio-single-project-wide.html">Portfolio Single Project Wide</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="blog.html">Blog List</a></li>
+                                    <li><a href="blog-post.html">Blog Single Post</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </div>
+        <div class="header_shadow"></div>
+    </div>
+</header>
+<!--Header End-->
+
+<div class="clearfix"></div>
+<section class="banner-wrap">
+    <div class="banner">
+
+        <div class="rev_slider_wrapper">
+            <!-- START REVOLUTION SLIDER 5.0 auto mode -->
+            <div id="rev_slider" class="rev_slider"  data-version="5.0">
+                <ul>
+                    <!-- SLIDE  -->
+                    <li data-transition="fade">
+
+                        <!-- MAIN IMAGE -->
+                        <img src="images/slide-show1.jpg" alt="">
+
+                        <!-- LAYERS -->
+                        <div class="tp-caption mediumlarge_light_white_center domainate start"
+                        data-x="0"
+                        data-hoffset="0"
+                        data-y="214"
+
+                        data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeOut;"
+                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                        data-start="1000"
+                        data-splitin="none"
+                        data-splitout="none"
+
+                        data-speed="1000"
+                        data-endspeed="300">DOMINATE </div>
+
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption internet"
+                        data-x="0"
+                        data-y="282"
+                        data-speed="500"
+                        data-start="800"
+
+
+                        data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeOut;"
+                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                        data-splitin="none"
+                        data-splitout="none"
+
+                        style="z-index: 6; letter-spacing: -3px;">THE INTERNET </div>
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption attract "
+                        data-x="0"
+                        data-y="369"
+                        data-speed="500"
+                        data-start="1700"
+                        data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;"
+                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                        data-splitin="none"
+                        data-splitout="none"
+                        style="z-index: 6; ">Attract, Engage, &amp; Convert </div>
+
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption more "
+                        data-x="100"
+                        data-y="425"
+                        data-speed="800"
+                        data-start="1900"
+                        data-transform_in="x:-50px;opacity:0;s:2000;e:Power3.easeOut;"
+                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                        data-splitin="none"
+                        data-splitout="none"
+                        style="z-index: 6; ">more </div>
+
+                        <!-- LAYER NR. 4 -->
+                        <div class="tp-caption qualified"
+                        data-x="0"
+                        data-y="476"
+                        data-speed="800"
+                        data-start="2600"
+                        data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeOut;"
+                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                        data-splitin="none"
+                        data-splitout="none"
+                        style="z-index: 6">qualified vehicle shoppers </div>
+
+
+                    </li>
+
+                    <!-- SLIDE  -->
+                    <li data-transition="fade">
+
+                        <!-- MAIN IMAGE -->
+                        <img src="images/slide-show2.jpg"  alt="">
+
+                        <!-- LAYERS -->
+                        <div class="tp-caption mediumlarge_light_white_center invest"
+                        data-x="543"
+                        data-y="160"
+                        data-speed="500"
+                        data-start="300"
+
+                        data-transform_in="x:right;s:2000;e:Power4.easeInOut;"
+                        data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                        data-splitin="none"
+                        data-splitout="none" >Time to invest in a website built to </div>
+
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption move mediumlarge_light_white_center"
+                        data-x="480"
+                        data-y="230"
+                        data-speed="500"
+                        data-start="800"
+                        data-transform_in="x:right;s:2000;e:Power4.easeInOut;"
+                        data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                        data-splitin="none"
+                        data-splitout="none"
+                        style="z-index: 6; letter-spacing: -3px;">MOVE </div>
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption light_brown mediumlarge_light_white_center sfl"
+                        data-x="615"
+                        data-y="230"
+                        data-speed="500"
+                        data-start="1200"
+                        data-transform_in="x:right;s:2000;e:Power4.easeInOut;"
+                        data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                        data-splitin="none"
+                        data-splitout="none"
+                        style="z-index: 6;">YOUR </div>
+
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption dark_brown mediumlarge_light_white_center "
+                        data-x="735"
+                        data-y="230"
+                        data-speed="800"
+                        data-start="1900"
+                        data-transform_in="x:right;s:2000;e:Power4.easeInOut;"
+                        data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                        data-splitin="none"
+                        data-splitout="none"
+                        style="z-index: 6;">INVENTORY </div>
+
+                        <!-- LAYER NR. 4 -->
+                        <div class="tp-caption faster mediumlarge_light_white_center"
+                        data-x="960"
+                        data-y="230"
+                        data-speed="800"
+                        data-start="2600"
+                        data-transform_in="x:right;s:2000;e:Power4.easeInOut;"
+                        data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                        data-splitin="none"
+                        data-splitout="none"
+                        style="z-index: 6">FASTER </div>
+
+                        <!-- LAYER NR. 5 -->
+                        <div class="tp-caption brown_line"
+                        data-x="458"
+                        data-y="273"
+                        data-speed="800"
+                        data-start="2600"
+                        data-transform_in="x:right;s:2000;e:Power4.easeInOut;"
+                        data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                        data-splitin="none"
+                        data-splitout="none"
+                        style="z-index: 6"><img src="images/brown_line.jpg" alt="underline"> </div>
+                    </li>
+
+                    <!-- SLIDE  -->
+                    <li data-transition="fade">
+
+                        <!-- MAIN IMAGE -->
+                        <img src="images/slide-show3.jpg" alt="">
+
+                        <!-- LAYERS -->
+                        <div class="tp-caption customin customout start green"
+                        data-x="40"
+                        data-hoffset="0"
+                        data-y="510"
+
+                        data-transform_in="y:top;s:2000;e:Power4.easeInOut;"
+                        data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                        data-speed="1000"
+                        data-start="500"
+                        data-endspeed="300">Wow Factor?</div>
+
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption big_white fade"
+                        data-x="40"
+                        data-y="560"
+                        data-speed="500"
+                        data-start="800"
+                        data-transform_in="y:bottom;s:2000;e:Power4.easeInOut;"
+                        data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                        style="z-index: 6;">STANDARD. </div>
+                    </li>
+
+                    <!-- SLIDE  -->
+                    <li data-transition="fade">
+                        <!-- MAIN IMAGE -->
+                        <img src="images/slide-show4.jpg" alt="">
+
+                        <!-- LAYERS -->
+                        <div class="tp-caption customin customout start big_white"
+                        data-x="0"
+                        data-hoffset="0"
+                        data-y="235"
+
+                        data-transform_in="x:-50px;opacity:0;s:2000;e:Power3.easeOut;"
+                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                        data-speed="1000"
+                        data-start="500"
+                        data-easing="Back.easeInOut"
+                        data-endspeed="300">UNLOCK</div>
+
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption thin_red fade"
+                        data-x="300"
+                        data-y="235"
+                        data-speed="500"
+                        data-start="800"
+                        data-transform_in="x:-50px;opacity:0;s:2000;e:Power3.easeOut;"
+                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                        style="z-index: 6;">THE POTENTIAL</div>
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption thin_white skewfromright"
+                        data-x="0"
+                        data-y="510"
+                        data-speed="500"
+                        data-start="800"
+                        data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeOut;"
+                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                        style="z-index: 6;">business from your</div>
+
+                        <!-- LAYER NR. 3 -->
+                        <div class="tp-caption cursive skewfromright"
+                        data-x="400"
+                        data-y="570"
+                        data-speed="500"
+                        data-start="800"
+                        data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeOut;"
+                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                        style="z-index: 6;">website</div>
+                    </li>
+
+                    <!-- SLIDE  -->
+                    <li data-transition="fade">
+                        <!-- MAIN IMAGE -->
+                        <img src="images/slide-show5.jpg" alt="">
+
+                        <!-- LAYERS -->
+                        <div class="tp-caption mediumlarge_light_white_center domainate customin customout start"
+                        data-x="0"
+                        data-hoffset="0"
+                        data-y="199"
+
+                        data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeOut;"
+                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                        data-speed="1000"
+                        data-start="500"
+                        data-easing="Back.easeInOut"
+                        data-endspeed="300">REALITY </div>
+
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption thin_dark_blue fade"
+                        data-x="270"
+                        data-y="210"
+                        data-speed="500"
+                        data-start="800"
+                        data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeOut;"
+                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                        style="z-index: 6; letter-spacing: 0;">IS JUST</div>
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption thinner_white sfl"
+                        data-x="05"
+                        data-y="270"
+                        data-speed="500"
+                        data-start="1200"
+                        data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeOut;"
+                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                        style="z-index: 6; ">your perception</div>
+                    </li>
+                </ul>
+            </div><!-- END REVOLUTION SLIDER -->
+        </div><!-- END REVOLUTION SLIDER WRAPPER -->
+
+        <script>
+        /******************************************
+        -   PREPARE PLACEHOLDER FOR SLIDER  -
+        ******************************************/
+
+        var revapi;
+        jQuery(document).ready(function() {
+            revapi = jQuery("#rev_slider").revolution({
+                sliderType:"standard",
+                sliderLayout:"fullwidth",
+                delay:9000,
+                navigation: {
+                    arrows:{enable:true}
+                },
+                gridwidth:1170,
+                gridheight:645
+            });
+        }); /*ready*/
+        </script>
+
+        <!-- END REVOLUTION SLIDER -->
+
+        <!-- Content End -->
+
+    </div>
+</section>
+<section class="message-wrap">
+    <div class="container">
+        <div class="row">
+            <h2 class="col-lg-9 col-md-8 col-sm-12 col-xs-12">Discover a website for car dealers that converts visitors to <span class="alternate-font">customers</span></h2>
+            <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12"> <a href="#" class="default-btn pull-right action_button lg-button">Schedule a Test Drive</a> </div>
+        </div>
+    </div>
+    <div class="message-shadow"></div>
+</section>
+<!--message-wrap ends-->
 <section class="content">
     <div class="container">
         <div class="inner-page homepage margin-bottom-none">
@@ -601,246 +1182,100 @@
         </div>
     </div>
 </section>
-</template>
-<script>
-export default {
-    name: 'ContentPart',
-    created(){
-        $(document).ready(function(){
-            if($('.carasouel-slider3').length){
-                $('.carasouel-slider3').bxSlider({
-                    slideWidth: 170,
-                    minSlides: 1,
-                    maxSlides: 6,
-                    slideMargin: 30,
-                    infiniteLoop:false,
-                    pager:false,
-                    prevSelector:jQuery('#slideControls3>.prev-btn'),
-                    nextSelector:jQuery('#slideControls3>.next-btn'),
-                });
-            }
 
-            /*******************
-            *  flip card part  *
-            ********************/
+<!--Footer Start-->
+<footer class="design_2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 padding-left-none md-padding-left-none sm-padding-left-15 xs-padding-left-15">
+                <h4>newsletter</h4>
+                <p>By subscribing to our company newsletter
+                    you will always be up-to-date on our latest
+                    promotions, deals and vehicle inventory!</p>
+                <form method="post" action="#" class="form_contact">
+                    <input type="text" value="" name="MERGE0" placeholder="Email Address">
+                    <input type="submit" value="Subscribe" class="md-button">
+                    <input type="hidden" name="u" value="">
+                    <input type="hidden" name="id" value="">
+                </form>
+                </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <h4>Latest tweets</h4>
+                <div class="latest-tweet">
+                    <div><i class="fa fa-twitter"></i>
+                        <p>Put your tweet message here.  Make it
+                            compelling to attract other <a href="#">@people</a> to
+                            read and click on your <a href="#">http://links</a> to
+                            your site. <a href="#">#hashtag</a></p>
+                    </div>
+                    <div><i class="fa fa-twitter"></i>
+                        <p>Put your tweet message here.  Make it
+                            compelling to attract other <a href="#">@people</a> to
+                            read and click on your <a href="#">http://links</a> to
+                            your site. <a href="#">#hashtag</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 padding-right-none md-padding-right-none sm-padding-right-15 xs-padding-right-15">
+                <h4>Contact us</h4>
+                <div class="footer-contact">
+                    <ul>
+                        <li><i class="fa fa-map-marker"></i> <strong>Address:</strong> 1234 Street Name, City Name, AB 12345</li>
+                        <li><i class="fa fa-phone"></i> <strong>Phone:</strong>1-800-123-4567</li>
+                        <li><i class="fa fa-envelope-o"></i> <strong>Email:</strong><a href="#">sales@company.com</a></li>
+                    </ul>
 
-            $(".flip").on({
-                mouseenter: function(){
-                    if($(this).css('border-top-color') != 'rgb(0, 255, 0)'){
-                        $(this).find('.card').addClass('flipped');
-                    }
-                },
-                mouseleave: function(){
-                    if($(this).css('border-top-color') != 'rgb(0, 255, 0)'){
-                        $(this).find('.card').removeClass('flipped');
-                    }
-                }
-            });
+                    <i class="fa fa-location-arrow back_icon"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
-            function flip_card_size(){
-                $(".flip").each( function(index, element){
-                    var frontHeight = $(this).find('.front img').outerHeight();
-                    var frontWidth  = $(this).find('.front img').outerWidth();
+<div class="clearfix"></div>
+<section class="copyright-wrap padding-bottom-10">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <div class="logo-footer margin-bottom-20 md-margin-bottom-20 sm-margin-bottom-10 xs-margin-bottom-20"><a href="#">
+                    <h1>Automotive</h1>
+                    <span>template</span></a>
+                </div>
+                <p>Copyright &copy; 2020 Theme Suite. All rights reserved.</p>
+            </div>
+            <div class="col-lg-8 col-md-6 col-sm-6 col-xs-12">
+                <ul class="social margin-bottom-25 md-margin-bottom-25 sm-margin-bottom-20 xs-margin-bottom-20 xs-padding-top-10 clearfix">
+                    <li><a class="sc-1" href="#"></a></li>
+                    <li><a class="sc-2" href="#"></a></li>
+                    <li><a class="sc-3" href="#"></a></li>
+                    <li><a class="sc-4" href="#"></a></li>
+                    <li><a class="sc-5" href="#"></a></li>
+                    <li><a class="sc-6" href="#"></a></li>
+                    <li><a class="sc-7" href="#"></a></li>
+                    <li><a class="sc-8" href="#"></a></li>
+                    <li><a class="sc-9" href="#"></a></li>
+                    <li><a class="sc-10" href="#"></a></li>
+                    <li><a class="sc-11" href="#"></a></li>
+                    <li><a class="sc-12" href="#"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="back_to_top"> <img src="images/arrow-up.png" alt="scroll up" /> </div>
+<!-- Bootstrap core JavaScript -->
+<script src="js/retina.js"></script>
+<script type="text/javascript" src="js/jquery.parallax.js"></script>
+<script type="text/javascript" src="js/jquery.inview.min.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script defer src="js/jquery.flexslider.js"></script>
+<script src="js/jquery.bxslider.js" type="text/javascript"></script>
+<script src="js/jquery.selectbox-0.2.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/jquery.easing.js"></script>
+</body>
 
-                    $(this).find('.flip, .back, .front, .card').height(frontHeight);
-                    $(this).height(frontHeight);
-
-                    $(this).find('.flip, .back, .front, .card').width(frontWidth);
-                    $(this).width(frontWidth);
-                });
-            }
-
-            function flip_card_reset_size(){
-                $(".flip").each( function(index, element){
-                    $(this).find('.flip, .back, .front, .card').removeAttr("style").css("width", "auto");
-                    $(this).removeAttr("style").css("width", "auto");
-                });
-            }
-
-            $(".page-view.nav.nav-tabs li a").click(function(){
-                $(".nav-tabs li").removeClass("active");
-                $(this).parent().addClass("active");
-            });
-
-
-            	// parallax effect
-            if($(".parallax_scroll").length){
-            //     console.log('j');
-            //     $(".parallax_scroll").parallax({ speed: 0.15 });
-
-            //     /*$(".parallax_scroll").each( function(index, element){
-            //         $(this).scrolly({ bgParallax: true });
-            //     });*/
-
-                $(".parallax_parent").each( function(){
-                    $(this).height($(this).find(".parallax_scroll").height());
-                });
-            }
-
-
-            // $( window ).resize( debouncer( function ( e ) {
-            //     $(".parallax_parent").each( function(){
-            //         $(this).height($(this).find(".parallax_scroll").height());
-            //     });
-            // } ) );
-
-            
-            /************************
-            *  animate number part  *
-            *************************/
-
-            function animate_number(el, value){
-                var original = value;
-                    value    = parseInt(value);
-
-                $({ someValue: 0 }).animate({ someValue: value }, {
-                    duration: 3000,
-                    easing: 'easeOutExpo',
-                    step: function() {
-                        el.text(commaSeparateNumber(Math.round(this.someValue)));
-                    },
-                    complete: function(){
-                        // ensure correct number appears after animate, wierd bugs in cause larger numbers to lose a few digits //
-                        el.text(commaSeparateNumber(Math.round(original)));
-                    }
-                });
-            }
-
-            function commaSeparateNumber(val){
-                while (/(\d+)(\d{3})/.test(val.toString())){
-                val = val.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
-                }
-                return val;
-            }
-
-            if($(".animate_number").length){
-                $(".animate_number").each( function(){
-                    var el 	  = $(this).find(".number");
-
-                    el.data('value', el.text());
-                    el.text(0);
-
-                    $(this).one('inview', function(event, isInView, visiblePartX, visiblePartY){
-                        var value = el.data('value').replace(/[^0-9]/gi, '');
-
-                        if(isInView){
-                            setTimeout( function(){
-                                animate_number(el, value);
-                            }, 500);
-                        }
-
-                    });
-                });
-            }
-
-            /*********
-            google map
-            ***********/
-
-            function init_google_map(){
-
-                if($("#google-map-listing").length){
-                    var latitude     = $("#google-map-listing").data('latitude');
-                    var longitude    = $("#google-map-listing").data('longitude');
-                    var zoom         = $("#google-map-listing").data('zoom');
-                    var scroll_wheel = $("#google-map-listing").data('scroll');
-                    var style        = $("#google-map-listing").data('style');
-                    var parallax     = $("#google-map-listing").data('parallax');
-
-                    if(latitude && longitude){
-                        var myLatlng = new google.maps.LatLng(latitude, longitude);
-                        var myOptions = {
-                            zoom: zoom,
-                            center: myLatlng,
-                            popup: true,
-                            mapTypeId: google.maps.MapTypeId.ROADMAP
-                        }
-
-                        if(parallax != false && typeof parallax == "undefined"){
-                            myOptions.scroll = {
-                                x:$(window).scrollLeft(),
-                                y:$(window).scrollTop()
-                            }
-                        }
-
-                        if(scroll_wheel == false && typeof scroll_wheel != "undefined"){
-                            myOptions.scrollwheel = false;
-                        }
-
-                        if(typeof style != "undefined"){
-                            myOptions.styles = style;
-                        }
-
-                        var map = new google.maps.Map(document.getElementById("google-map-listing"), myOptions);
-
-                        var marker = new google.maps.Marker({
-                            position: myLatlng,
-                            map: map,
-                            title: "Our Location"
-                        });
-
-                        if(parallax != false && typeof parallax == "undefined"){
-                            var offset = $("#google-map-listing").offset();
-                            map.panBy(((myOptions.scroll.x-offset.left)/3),((myOptions.scroll.y-offset.top)/3));
-
-                            google.maps.event.addDomListener(window, 'scroll', function(){
-                                var scrollY = $(window).scrollTop(),
-                                    scrollX = $(window).scrollLeft(),
-                                    scroll  = map.get('scroll');
-
-                                if(scroll){
-                                    map.panBy(-((scroll.x-scrollX)/3),-((scroll.y-scrollY)/3));
-                                }
-
-                                map.set('scroll',{
-                                    x:scrollX,
-                                    y:scrollY
-                                });
-                            });
-                        }
-
-                        google.maps.event.addListener(marker, 'click', function() {
-                            map.setZoom(zoom);
-                        });
-                    }
-                }
-            }
-
-            init_google_map();
-
-            if($(".back_to_top").length){
-                $(".back_to_top").click(function() {
-                $("html, body").animate({ scrollTop: 0 }, "slow");
-                return false;
-                });
-
-                $(window).scroll(function() {
-                    var height = $(window).scrollTop();
-
-                    if(height > 300) {
-                        $(".back_to_top").fadeIn();
-                    } else {
-                        $(".back_to_top").fadeOut();
-                    }
-                });
-            }
-
-            $(".fullwidth_element").each( function(index, element){
-                var height = $(this).height();
-
-                $(this).closest(".fullwidth_element_parent").height(height);
-            });
-            // fancy box
-            if($(".fancybox").length){
-                $(".fancybox").fancybox();
-            }
-            
-            // select box
-            if($(".css-dropdowns").length){
-                $(".css-dropdowns").selectbox();
-            }
-        })
-        
-    }
-}
-</script>
+<!-- Mirrored from demo.themesuite.com/automotive/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 09 Apr 2020 23:29:21 GMT -->
+</html>

@@ -2,7 +2,6 @@
 node_modules
 /dist
 /coverage
-/public/images/
 /tests/e2e/reports/
 selenium-debug.log
 chromedriver.log
