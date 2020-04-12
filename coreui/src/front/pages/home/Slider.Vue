@@ -19,13 +19,13 @@
                         data-hoffset="0"
                         data-y="214"
 
-                        data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeOut;"
-                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
-                        data-start="1000"
+                        data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:100;e:Power2.easeOut;"
+                        data-transform_out="s:100;e:Power3.easeInOut;s:100;e:Power3.easeInOut;"
+                        data-start="100"
                         data-splitin="none"
                         data-splitout="none"
 
-                        data-speed="1000"
+                        data-speed="100"
                         data-endspeed="300">{{slider1.layer1}}</div>
 
                         <!-- LAYER NR. 1 -->
@@ -36,8 +36,8 @@
                         data-start="800"
 
 
-                        data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeOut;"
-                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                        data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:100;e:Power2.easeOut;"
+                        data-transform_out="s:100;e:Power3.easeInOut;s:100;e:Power3.easeInOut;"
                         data-splitin="none"
                         data-splitout="none"
 
@@ -49,8 +49,8 @@
                         data-y="369"
                         data-speed="500"
                         data-start="1700"
-                        data-transform_in="y:-50px;opacity:0;s:1500;e:Power3.easeOut;"
-                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                        data-transform_in="y:-50px;opacity:0;s:150;e:Power3.easeOut;"
+                        data-transform_out="s:100;e:Power3.easeInOut;s:100;e:Power3.easeInOut;"
                         data-splitin="none"
                         data-splitout="none"
                         style="z-index: 6; ">{{slider1.layer3}}</div>
@@ -61,8 +61,8 @@
                         data-y="425"
                         data-speed="800"
                         data-start="1900"
-                        data-transform_in="x:-50px;opacity:0;s:2000;e:Power3.easeOut;"
-                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                        data-transform_in="x:-50px;opacity:0;s:200;e:Power3.easeOut;"
+                        data-transform_out="s:100;e:Power3.easeInOut;s:100;e:Power3.easeInOut;"
                         data-splitin="none"
                         data-splitout="none"
                         style="z-index: 6; ">{{slider1.layer4}}</div>
@@ -73,8 +73,8 @@
                         data-y="476"
                         data-speed="800"
                         data-start="2600"
-                        data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeOut;"
-                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                        data-transform_in="y:50px;opacity:0;s:150;e:Power3.easeOut;"
+                        data-transform_out="s:100;e:Power3.easeInOut;s:100;e:Power3.easeInOut;"
                         data-splitin="none"
                         data-splitout="none"
                         style="z-index: 6">{{slider1.layer5}}</div>
@@ -95,8 +95,8 @@
                         data-speed="500"
                         data-start="300"
 
-                        data-transform_in="x:right;s:2000;e:Power4.easeInOut;"
-                        data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                        data-transform_in="x:right;s:200;e:Power4.easeInOut;"
+                        data-transform_out="s:100;e:Power2.easeInOut;s:100;e:Power2.easeInOut;"
                         data-splitin="none"
                         data-splitout="none" >{{slider2.layer1}}</div>
 
@@ -106,8 +106,8 @@
                         data-y="230"
                         data-speed="500"
                         data-start="800"
-                        data-transform_in="x:right;s:2000;e:Power4.easeInOut;"
-                        data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                        data-transform_in="x:right;s:200;e:Power4.easeInOut;"
+                        data-transform_out="s:100;e:Power2.easeInOut;s:100;e:Power2.easeInOut;"
                         data-splitin="none"
                         data-splitout="none"
                         style="z-index: 6; letter-spacing: -3px;">{{slider2.layer2}}</div>
@@ -118,8 +118,8 @@
                         data-y="230"
                         data-speed="500"
                         data-start="1200"
-                        data-transform_in="x:right;s:2000;e:Power4.easeInOut;"
-                        data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                        data-transform_in="x:right;s:200;e:Power4.easeInOut;"
+                        data-transform_out="s:100;e:Power2.easeInOut;s:100;e:Power2.easeInOut;"
                         data-splitin="none"
                         data-splitout="none"
                         style="z-index: 6;">{{slider2.layer3}}</div>
@@ -130,8 +130,8 @@
                         data-y="230"
                         data-speed="800"
                         data-start="1900"
-                        data-transform_in="x:right;s:2000;e:Power4.easeInOut;"
-                        data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                        data-transform_in="x:right;s:200;e:Power4.easeInOut;"
+                        data-transform_out="s:100;e:Power2.easeInOut;s:100;e:Power2.easeInOut;"
                         data-splitin="none"
                         data-splitout="none"
                         style="z-index: 6;">{{slider2.layer4}}</div>
@@ -142,8 +142,8 @@
                         data-y="230"
                         data-speed="800"
                         data-start="2600"
-                        data-transform_in="x:right;s:2000;e:Power4.easeInOut;"
-                        data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                        data-transform_in="x:right;s:200;e:Power4.easeInOut;"
+                        data-transform_out="s:100;e:Power2.easeInOut;s:100;e:Power2.easeInOut;"
                         data-splitin="none"
                         data-splitout="none"
                         style="z-index: 6">{{slider2.layer5}}</div>
@@ -154,8 +154,8 @@
                         data-y="273"
                         data-speed="800"
                         data-start="2600"
-                        data-transform_in="x:right;s:2000;e:Power4.easeInOut;"
-                        data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                        data-transform_in="x:right;s:200;e:Power4.easeInOut;"
+                        data-transform_out="s:100;e:Power2.easeInOut;s:100;e:Power2.easeInOut;"
                         data-splitin="none"
                         data-splitout="none"
                         style="z-index: 6"><img src="images/brown_line.jpg" alt="underline"> </div>
@@ -173,9 +173,9 @@
                         data-hoffset="0"
                         data-y="510"
 
-                        data-transform_in="y:top;s:2000;e:Power4.easeInOut;"
-                        data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                        data-speed="1000"
+                        data-transform_in="y:top;s:200;e:Power4.easeInOut;"
+                        data-transform_out="s:100;e:Power2.easeInOut;s:100;e:Power2.easeInOut;"
+                        data-speed="100"
                         data-start="500"
                         data-endspeed="300">{{slider3.layer1}}</div>
 
@@ -185,8 +185,8 @@
                         data-y="560"
                         data-speed="500"
                         data-start="800"
-                        data-transform_in="y:bottom;s:2000;e:Power4.easeInOut;"
-                        data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                        data-transform_in="y:bottom;s:200;e:Power4.easeInOut;"
+                        data-transform_out="s:100;e:Power2.easeInOut;s:100;e:Power2.easeInOut;"
                         style="z-index: 6;">{{slider3.layer2}}</div>
                     </li>
 
@@ -201,9 +201,9 @@
                         data-hoffset="0"
                         data-y="235"
 
-                        data-transform_in="x:-50px;opacity:0;s:2000;e:Power3.easeOut;"
-                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
-                        data-speed="1000"
+                        data-transform_in="x:-50px;opacity:0;s:200;e:Power3.easeOut;"
+                        data-transform_out="s:100;e:Power3.easeInOut;s:100;e:Power3.easeInOut;"
+                        data-speed="100"
                         data-start="500"
                         data-easing="Back.easeInOut"
                         data-endspeed="300">{{slider4.layer1}}</div>
@@ -214,8 +214,8 @@
                         data-y="235"
                         data-speed="500"
                         data-start="800"
-                        data-transform_in="x:-50px;opacity:0;s:2000;e:Power3.easeOut;"
-                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                        data-transform_in="x:-50px;opacity:0;s:200;e:Power3.easeOut;"
+                        data-transform_out="s:100;e:Power3.easeInOut;s:100;e:Power3.easeInOut;"
                         style="z-index: 6;">{{slider4.layer2}}</div>
 
                         <!-- LAYER NR. 2 -->
@@ -225,7 +225,7 @@
                         data-speed="500"
                         data-start="800"
                         data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeOut;"
-                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                        data-transform_out="s:100;e:Power3.easeInOut;s:100;e:Power3.easeInOut;"
                         style="z-index: 6;">{{slider4.layer3}}</div>
 
                         <!-- LAYER NR. 3 -->
@@ -235,7 +235,7 @@
                         data-speed="500"
                         data-start="800"
                         data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeOut;"
-                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                        data-transform_out="s:100;e:Power3.easeInOut;s:100;e:Power3.easeInOut;"
                         style="z-index: 6;">{{slider4.layer4}}</div>
                     </li>
 
@@ -250,9 +250,9 @@
                         data-hoffset="0"
                         data-y="199"
 
-                        data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeOut;"
-                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
-                        data-speed="1000"
+                        data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:100;e:Power2.easeOut;"
+                        data-transform_out="s:100;e:Power3.easeInOut;s:100;e:Power3.easeInOut;"
+                        data-speed="100"
                         data-start="500"
                         data-easing="Back.easeInOut"
                         data-endspeed="300">{{slider5.layer1}}</div>
@@ -263,8 +263,8 @@
                         data-y="210"
                         data-speed="500"
                         data-start="800"
-                        data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeOut;"
-                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                        data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:100;e:Power2.easeOut;"
+                        data-transform_out="s:100;e:Power3.easeInOut;s:100;e:Power3.easeInOut;"
                         style="z-index: 6; letter-spacing: 0;">{{slider5.layer2}}</div>
 
                         <!-- LAYER NR. 2 -->
@@ -273,8 +273,8 @@
                         data-y="270"
                         data-speed="500"
                         data-start="1200"
-                        data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeOut;"
-                        data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
+                        data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:100;e:Power2.easeOut;"
+                        data-transform_out="s:100;e:Power3.easeInOut;s:100;e:Power3.easeInOut;"
                         style="z-index: 6; ">{{slider5.layer3}}</div>
                     </li>
                 </ul>
@@ -315,7 +315,7 @@ export default {
             revapi = jQuery("#rev_slider").revolution({
                 sliderType:"standard",
                 sliderLayout:"fullwidth",
-                delay:9000,
+                delay:3000,
                 navigation: {
                     arrows:{enable:true}
                 },
