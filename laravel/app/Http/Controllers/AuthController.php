@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\User;
+use App\Models\Profile;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
@@ -45,7 +46,7 @@ class AuthController extends Controller
             $validate = Validator::make($request->all(), [
                 'first_name'      => 'required',
                 'last_name'      => 'required',
-                'license'          =>'required|unique:profile',
+                'license'          =>'required',
                 'description' => 'required',
                 'phone'=>'required',
                 'street'=>'required',
@@ -69,10 +70,8 @@ class AuthController extends Controller
             ], Response::HTTP_UNPROCESSABLE_ENTITY);
         }
 
-        $user = new User;
-        $user->name = $request->name;
-        $user->first_name = $request->name;
-        $user->last_name = $request->name;
+        $user = new User();
+        $user->name = $request->first_name.$request->last_name;
         $user->email = $request->email;
         $user->password = Hash::make($request->password);
         $user->status = UserStatus::Inactive;
@@ -84,11 +83,34 @@ class AuthController extends Controller
         if(!File::exists($path)) {
             File::makeDirectory($path, $mode = 0777, true, true);
         }
+        $avatar_url = '';
         $avatar = $request->file('image');
         if(!empty($avatar)){
             $imageName = 'avatar.'.$avatar->getClientOriginalExtension();
             $request->image->move($path, $imageName);
+            $avatar_url = $path.'/'.$imageName;
         }
+
+        $profile_data = [];
+        $profile_data['first_name'] = $request->get('first_name', '');
+        $profile_data['last_name'] = $request->get('last_name', '');
+        $profile_data['license'] =  $request->get('license', '');
+        $profile_data['description'] =  $request->get('description', '');
+        $profile_data['phone'] =  $request->get('phone', '');
+        $profile_data['street'] =  $request->get('street', '');
+        $profile_data['city'] =  $request->get('city', '');
+        $profile_data['state'] =  $request->get('state', '');
+        $profile_data['postal_code'] =  $request->get('postal_code', '');
+        $profile_data['country'] =  $request->get('country', '');
+        $profile_data['service_type'] =  $request->get('service_type', '');
+        $profile_data['avatar'] =  $avatar_url;
+        $_profile_data = json_encode($profile_data);
+        
+        $_profile = new Profile();
+        $_profile->user_id = $user_id;
+        $_profile->data = $_profile_data;
+        // throw new \Exception(json_encode($_profile));
+        $user->profile()->save($_profile);
         return response()->json(['status' => 'success','user' => $user], Response::HTTP_OK);
     } 
 

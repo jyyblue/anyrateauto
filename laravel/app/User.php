@@ -8,6 +8,7 @@ use Illuminate\Notifications\Notifiable;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Tymon\JWTAuth\Contracts\JWTSubject;
 use Spatie\Permission\Traits\HasRoles;
+use App\Models\Profile;
 
 class User extends Authenticatable implements JWTSubject
 {
@@ -67,4 +68,12 @@ class User extends Authenticatable implements JWTSubject
     ];
     
     protected $guard_name = 'api';
+
+    /**
+     * Get the phone record associated with the user.
+     */
+    public function profile()
+    {
+        return $this->hasOne('App\Models\Profile');
+    }
 }
