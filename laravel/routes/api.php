@@ -60,6 +60,13 @@ Route::group(['middleware' => 'api'], function ($router) {
         Route::resource('roles',        'RolesController');
         Route::get('/roles/move/move-up',      'RolesController@moveUp')->name('roles.up');
         Route::get('/roles/move/move-down',    'RolesController@moveDown')->name('roles.down');
+
     });
+
+    
+    Route::get('/sliders/get', 'Admin\EditPageController@getAllSliders')->name('slider.get');
+    Route::post('/sliders/uploadImage', 'Admin\EditPageController@uploadSliderImage')->name('slider.uploadImage');
+    Route::post('/sliders/update', 'Admin\EditPageController@updateSlider')->name('slider.update');
 });
+
 

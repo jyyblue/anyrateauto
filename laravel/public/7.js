@@ -1481,7 +1481,6 @@ __webpack_require__.r(__webpack_exports__);
   mounted: function mounted() {
     var revapi;
     jQuery(document).ready(function () {
-      console.log(jQuery("#rev_slider"));
       revapi = jQuery("#rev_slider").revolution({
         sliderType: "standard",
         sliderLayout: "fullwidth",
@@ -1494,9 +1493,7 @@ __webpack_require__.r(__webpack_exports__);
         gridwidth: 1170,
         gridheight: 645
       });
-      console.log(revapi);
     });
-    /*ready*/
   }
 });
 
@@ -3680,7 +3677,7 @@ var staticRenderFns = [
                         "data-splitout": "none"
                       }
                     },
-                    [_vm._v("FASTER ")]
+                    [_vm._v("AAAASTER  ")]
                   ),
                   _vm._v(" "),
                   _c(

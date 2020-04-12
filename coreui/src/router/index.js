@@ -94,6 +94,9 @@ const SendEmail     = () => import('@/views/email/SendEmail')
 const EditMenu = () => import('@/views/menu/EditMenu')
 const Media = () => import('@/views/media/Media')
 
+//Slider
+const SliderEdit = () => import('@/views/settings/SliderEdit')
+
 //frontEnd
 
 const Layout = () => import('@/front/layout/Layout')
@@ -115,12 +118,12 @@ function configRoutes () {
   return [
     {
       path: '/',
-      name: 'FrontHome',
+      name: '',
       component: Layout,
       children: [
         {
           path: '/',
-          name: 'Home Page',
+          name: 'Front.Home',
           component: HomePage
         },
       ]
@@ -143,10 +146,7 @@ function configRoutes () {
           component: Register
         },
       ]
-        
-
     },
-
     {
       path: '/',
       redirect: '/dashboard',
@@ -554,6 +554,21 @@ function configRoutes () {
               name: 'Modals',
               component: Modals
             }
+          ]
+        },
+        {
+          path: 'settings',
+          redirect: '/settings/sliders',
+          name: 'Settings',
+          component: {
+            render (c) { return c('router-view') }
+          },
+          children: [
+            {
+              path: 'sliders',
+              name: 'Sliders',
+              component: SliderEdit
+            },
           ]
         }
       ]

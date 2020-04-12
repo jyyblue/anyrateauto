@@ -8,7 +8,6 @@ import CoreuiVue from '@coreui/vue'
 import { iconsSet as icons } from './assets/icons/icons.js'
 import store from './store'
 
-
 import jQuery from 'jquery';
 window.jQuery = jQuery;
 window.$ = jQuery;

@@ -11,7 +11,7 @@
                     <li data-transition="fade">
 
                         <!-- MAIN IMAGE -->
-                        <img src="images/slide-show1.jpg" alt="">
+                        <img src="images/slide-show1.jpg" alt="">                        
 
                         <!-- LAYERS -->
                         <div class="tp-caption mediumlarge_light_white_center domainate start"
@@ -146,7 +146,7 @@
                         data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
                         data-splitin="none"
                         data-splitout="none"
-                        style="z-index: 6">FASTER </div>
+                        style="z-index: 6">AAAASTER  </div>
 
                         <!-- LAYER NR. 5 -->
                         <div class="tp-caption brown_line"
@@ -285,6 +285,7 @@
 </section>
 </template>
 <script>
+
 export default {
   name: 'Slider',
   mounted() {
