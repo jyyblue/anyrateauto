@@ -31,22 +31,48 @@ class AuthController extends Controller
      * @return \Illuminate\Http\JsonResponse
      */
     public function register(Request $request){
-        $validate = Validator::make($request->all(), [
-            'name'      => 'required',
-            'email'     => 'required|email|unique:users',
-            'password'  => 'required|min:4|confirmed',
-            'role'      => 'required'
-        ]);        
+        $role = $request->get('role');
+        if($role === UserRole::CUSTOMER){
+            $validate = Validator::make($request->all(), [
+                'first_name'      => 'required',
+                'last_name'      => 'required',
+                'email'     => 'required|email|unique:users',
+                'password'  => 'required|min:4|confirmed',
+                'role'      => 'required'
+            ]);        
+    
+        }else if($role === UserRole::TECHNIQUE){
+            $validate = Validator::make($request->all(), [
+                'first_name'      => 'required',
+                'last_name'      => 'required',
+                'license'          =>'required|unique:profile',
+                'description' => 'required',
+                'phone'=>'required',
+                'street'=>'required',
+                'postal_code'=>'required',
+                'city'=>'required',
+                'state'=>'required',
+                'country'=>'required',
+                'service_type'=>'required',
+                'email'     => 'required|email|unique:users',
+                'password'  => 'required|min:4|confirmed',
+                'role'      => 'required',
+                'image' => 'mimes:jpeg,jpg,png|required|max:10000'
+            ]);        
+    
+        }else{
+            return response()->json([], Response::HTTP_UNPROCESSABLE_ENTITY);
+        }
         if ($validate->fails()){
             return response()->json([
                 'validation' => $validate->errors()
             ], Response::HTTP_UNPROCESSABLE_ENTITY);
         }
 
-
-
         $user = new User;
         $user->name = $request->name;
+        $user->first_name = $request->name;
+        $user->last_name = $request->name;
         $user->email = $request->email;
         $user->password = Hash::make($request->password);
         $user->status = UserStatus::Inactive;
@@ -59,9 +85,10 @@ class AuthController extends Controller
             File::makeDirectory($path, $mode = 0777, true, true);
         }
         $avatar = $request->file('image');
-        $imageName = 'avatar.'.$avatar->getClientOriginalExtension();
-        $request->image->move($path, $imageName);
-
+        if(!empty($avatar)){
+            $imageName = 'avatar.'.$avatar->getClientOriginalExtension();
+            $request->image->move($path, $imageName);
+        }
         return response()->json(['status' => 'success','user' => $user], Response::HTTP_OK);
     } 
 

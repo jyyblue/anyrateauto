@@ -76,7 +76,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! exports provided: default */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\coreui\\src\\views\\pages\\Register.vue: Unexpected token (322:30)\n\n\u001b[0m \u001b[90m 320 | \u001b[39m    register_technique() {\u001b[0m\n\u001b[0m \u001b[90m 321 | \u001b[39m      \u001b[36mvar\u001b[39m self \u001b[33m=\u001b[39m \u001b[36mthis\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 322 | \u001b[39m      console\u001b[33m.\u001b[39mlog(self\u001b[33m.\u001b[39mavatar\u001b[33m.\u001b[39m)\u001b[33m;\u001b[39m \u001b[0m\n\u001b[0m \u001b[90m     | \u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 323 | \u001b[39m      \u001b[36mconst\u001b[39m config \u001b[33m=\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 324 | \u001b[39m          headers\u001b[33m:\u001b[39m { \u001b[32m'content-type'\u001b[39m\u001b[33m:\u001b[39m \u001b[32m'multipart/form-data'\u001b[39m }\u001b[0m\n\u001b[0m \u001b[90m 325 | \u001b[39m      }\u001b[0m\n    at Parser.raise (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:6420:17)\n    at Parser.unexpected (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:7773:16)\n    at Parser.parseIdentifierName (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:9693:18)\n    at Parser.parseIdentifier (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:9667:23)\n    at Parser.parseMaybePrivateName (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:9018:19)\n    at Parser.parseSubscript (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8625:28)\n    at Parser.parseSubscripts (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8577:19)\n    at Parser.parseExprSubscripts (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8566:17)\n    at Parser.parseMaybeUnary (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8536:21)\n    at Parser.parseExprOps (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8402:23)\n    at Parser.parseMaybeConditional (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8375:23)\n    at Parser.parseMaybeAssign (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8325:21)\n    at Parser.parseExprListItem (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:9659:18)\n    at Parser.parseCallExpressionArguments (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8774:22)\n    at Parser.parseSubscript (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8661:29)\n    at Parser.parseSubscripts (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8577:19)\n    at Parser.parseExprSubscripts (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8566:17)\n    at Parser.parseMaybeUnary (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8536:21)\n    at Parser.parseExprOps (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8402:23)\n    at Parser.parseMaybeConditional (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8375:23)\n    at Parser.parseMaybeAssign (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8325:21)\n    at Parser.parseExpression (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8275:23)\n    at Parser.parseStatementContent (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:10138:23)\n    at Parser.parseStatement (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:10009:17)\n    at Parser.parseBlockOrModuleBlockBody (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:10585:25)\n    at Parser.parseBlockBody (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:10572:10)\n    at Parser.parseBlock (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:10556:10)\n    at Parser.parseFunctionBody (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:9584:24)\n    at Parser.parseFunctionBodyAndFinish (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:9554:10)\n    at Parser.parseMethod (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:9508:10)\n    at Parser.parseObjectMethod (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:9424:19)\n    at Parser.parseObjPropValue (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:9466:23)\n    at Parser.parseObjectMember (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:9390:10)\n    at Parser.parseObj (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:9314:25)\n    at Parser.parseExprAtom (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8939:28)\n    at Parser.parseExprSubscripts (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8556:23)");
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\coreui\\src\\views\\pages\\Register.vue: Unexpected token, expected \")\" (465:40)\n\n\u001b[0m \u001b[90m 463 | \u001b[39m  methods\u001b[33m:\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 464 | \u001b[39m    removeError\u001b[33m:\u001b[39m \u001b[36mfunction\u001b[39m(key){\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 465 | \u001b[39m      \u001b[36mif\u001b[39m(\u001b[36mthis\u001b[39m\u001b[33m.\u001b[39merrors\u001b[33m.\u001b[39mhasOwnProperty(key)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m     | \u001b[39m                                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 466 | \u001b[39m    }\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 467 | \u001b[39m    onSubmit\u001b[33m:\u001b[39m \u001b[36mfunction\u001b[39m () {\u001b[0m\n\u001b[0m \u001b[90m 468 | \u001b[39m      \u001b[36mthis\u001b[39m\u001b[33m.\u001b[39m$refs\u001b[33m.\u001b[39minvisibleRecaptcha\u001b[33m.\u001b[39mexecute()\u001b[0m\n    at Parser.raise (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:6420:17)\n    at Parser.unexpected (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:7773:16)\n    at Parser.expect (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:7759:28)\n    at Parser.parseHeaderExpression (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:10279:10)\n    at Parser.parseIfStatement (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:10362:22)\n    at Parser.parseStatementContent (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:10054:21)\n    at Parser.parseStatement (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:10009:17)\n    at Parser.parseBlockOrModuleBlockBody (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:10585:25)\n    at Parser.parseBlockBody (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:10572:10)\n    at Parser.parseBlock (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:10556:10)\n    at Parser.parseFunctionBody (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:9584:24)\n    at Parser.parseFunctionBodyAndFinish (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:9554:10)\n    at E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:10717:12\n    at Parser.withTopicForbiddingContext (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:9884:14)\n    at Parser.parseFunction (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:10716:10)\n    at Parser.parseFunctionExpression (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:9032:17)\n    at Parser.parseExprAtom (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8945:21)\n    at Parser.parseExprSubscripts (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8556:23)\n    at Parser.parseMaybeUnary (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8536:21)\n    at Parser.parseExprOps (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8402:23)\n    at Parser.parseMaybeConditional (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8375:23)\n    at Parser.parseMaybeAssign (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8325:21)\n    at Parser.parseObjectProperty (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:9441:101)\n    at Parser.parseObjPropValue (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:9466:101)\n    at Parser.parseObjectMember (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:9390:10)\n    at Parser.parseObj (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:9314:25)\n    at Parser.parseExprAtom (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8939:28)\n    at Parser.parseExprSubscripts (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8556:23)\n    at Parser.parseMaybeUnary (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8536:21)\n    at Parser.parseExprOps (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8402:23)\n    at Parser.parseMaybeConditional (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8375:23)\n    at Parser.parseMaybeAssign (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:8325:21)\n    at Parser.parseObjectProperty (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:9441:101)\n    at Parser.parseObjPropValue (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:9466:101)\n    at Parser.parseObjectMember (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:9390:10)\n    at Parser.parseObj (E:\\Online_work\\freelancer\\Anyrateauto\\anyrateauto\\laravel\\node_modules\\@babel\\parser\\lib\\index.js:9314:25)");
 
 /***/ }),
 
@@ -152,168 +152,414 @@ var render = function() {
                                     [
                                       _c(
                                         "CRow",
-                                        { staticClass: "form-group" },
+                                        { staticClass: "form-group mb-0" },
                                         [
-                                          _c(
-                                            "CCol",
-                                            { attrs: { col: 6 } },
-                                            [
-                                              _c("CInput", {
-                                                staticClass: "mb-0",
-                                                attrs: {
-                                                  placeholder: "First Name",
-                                                  prependHtml:
-                                                    "<i class='cui-user'></i>",
-                                                  autocomplete: "first_name"
-                                                },
-                                                scopedSlots: _vm._u([
+                                          _c("CCol", { attrs: { col: 6 } }, [
+                                            _c(
+                                              "div",
+                                              {
+                                                staticClass: "form-group",
+                                                attrs: { role: "group" }
+                                              },
+                                              [
+                                                _c(
+                                                  "div",
                                                   {
-                                                    key: "prepend-content",
-                                                    fn: function() {
-                                                      return [
-                                                        _c("CIcon", {
-                                                          attrs: {
-                                                            name: "cil-user"
-                                                          }
-                                                        })
-                                                      ]
-                                                    },
-                                                    proxy: true
-                                                  }
-                                                ]),
-                                                model: {
-                                                  value: _vm.first_name,
-                                                  callback: function($$v) {
-                                                    _vm.first_name = $$v
+                                                    staticClass: "input-group"
                                                   },
-                                                  expression: "first_name"
-                                                }
-                                              })
-                                            ],
-                                            1
-                                          ),
+                                                  [
+                                                    _c("input", {
+                                                      directives: [
+                                                        {
+                                                          name: "model",
+                                                          rawName: "v-model",
+                                                          value: _vm.first_name,
+                                                          expression:
+                                                            "first_name"
+                                                        }
+                                                      ],
+                                                      class: {
+                                                        "form-control": true,
+                                                        "is-invalid":
+                                                          _vm.errors.first_name
+                                                      },
+                                                      attrs: {
+                                                        type: "text",
+                                                        placeholder:
+                                                          "First Name",
+                                                        prependhtml:
+                                                          "<i class='cui-lock-locked'></i>",
+                                                        autocomplete:
+                                                          "first_name"
+                                                      },
+                                                      domProps: {
+                                                        value: _vm.first_name
+                                                      },
+                                                      on: {
+                                                        input: function(
+                                                          $event
+                                                        ) {
+                                                          if (
+                                                            $event.target
+                                                              .composing
+                                                          ) {
+                                                            return
+                                                          }
+                                                          _vm.first_name =
+                                                            $event.target.value
+                                                        }
+                                                      }
+                                                    })
+                                                  ]
+                                                ),
+                                                _vm._v(" "),
+                                                _vm.errors.first_name
+                                                  ? _c(
+                                                      "div",
+                                                      {
+                                                        staticClass:
+                                                          "invalid-feedback",
+                                                        staticStyle: {
+                                                          display: "block"
+                                                        },
+                                                        attrs: {
+                                                          errors: _vm.errors
+                                                        }
+                                                      },
+                                                      [
+                                                        _vm._v(
+                                                          "\n                        " +
+                                                            _vm._s(
+                                                              _vm.errors
+                                                                .first_name[0]
+                                                            ) +
+                                                            "\n                      "
+                                                        )
+                                                      ]
+                                                    )
+                                                  : _vm._e()
+                                              ]
+                                            )
+                                          ]),
                                           _vm._v(" "),
-                                          _c(
-                                            "CCol",
-                                            { attrs: { col: 6 } },
-                                            [
-                                              _c("CInput", {
-                                                staticClass: "mb-0",
-                                                attrs: {
-                                                  placeholder: "Last Name",
-                                                  prependHtml:
-                                                    "<i class='cui-user'></i>",
-                                                  autocomplete: "last_name"
-                                                },
-                                                scopedSlots: _vm._u([
+                                          _c("CCol", { attrs: { col: 6 } }, [
+                                            _c(
+                                              "div",
+                                              {
+                                                staticClass: "form-group",
+                                                attrs: { role: "group" }
+                                              },
+                                              [
+                                                _c(
+                                                  "div",
                                                   {
-                                                    key: "prepend-content",
-                                                    fn: function() {
-                                                      return [
-                                                        _c("CIcon", {
-                                                          attrs: {
-                                                            name: "cil-user"
-                                                          }
-                                                        })
-                                                      ]
-                                                    },
-                                                    proxy: true
-                                                  }
-                                                ]),
-                                                model: {
-                                                  value: _vm.last_name,
-                                                  callback: function($$v) {
-                                                    _vm.last_name = $$v
+                                                    staticClass: "input-group"
                                                   },
-                                                  expression: "last_name"
-                                                }
-                                              })
-                                            ],
-                                            1
-                                          )
+                                                  [
+                                                    _c("input", {
+                                                      directives: [
+                                                        {
+                                                          name: "model",
+                                                          rawName: "v-model",
+                                                          value: _vm.last_name,
+                                                          expression:
+                                                            "last_name"
+                                                        }
+                                                      ],
+                                                      class: {
+                                                        "form-control": true,
+                                                        "is-invalid":
+                                                          _vm.errors.last_name
+                                                      },
+                                                      attrs: {
+                                                        type: "text",
+                                                        placeholder:
+                                                          "Last Name",
+                                                        prependhtml:
+                                                          "<i class='cui-lock-locked'></i>",
+                                                        autocomplete:
+                                                          "last_name"
+                                                      },
+                                                      domProps: {
+                                                        value: _vm.last_name
+                                                      },
+                                                      on: {
+                                                        input: function(
+                                                          $event
+                                                        ) {
+                                                          if (
+                                                            $event.target
+                                                              .composing
+                                                          ) {
+                                                            return
+                                                          }
+                                                          _vm.last_name =
+                                                            $event.target.value
+                                                        }
+                                                      }
+                                                    })
+                                                  ]
+                                                ),
+                                                _vm._v(" "),
+                                                _vm.errors.last_name
+                                                  ? _c(
+                                                      "div",
+                                                      {
+                                                        staticClass:
+                                                          "invalid-feedback",
+                                                        staticStyle: {
+                                                          display: "block"
+                                                        },
+                                                        attrs: {
+                                                          errors: _vm.errors
+                                                        }
+                                                      },
+                                                      [
+                                                        _vm._v(
+                                                          "\n                        " +
+                                                            _vm._s(
+                                                              _vm.errors
+                                                                .last_name[0]
+                                                            ) +
+                                                            "\n                      "
+                                                        )
+                                                      ]
+                                                    )
+                                                  : _vm._e()
+                                              ]
+                                            )
+                                          ])
                                         ],
                                         1
                                       ),
                                       _vm._v(" "),
-                                      _c("CInput", {
-                                        attrs: {
-                                          placeholder: "Email",
-                                          prepend: "@",
-                                          autocomplete: "email"
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass: "form-group",
+                                          attrs: { role: "group" }
                                         },
-                                        model: {
-                                          value: _vm.email,
-                                          callback: function($$v) {
-                                            _vm.email = $$v
-                                          },
-                                          expression: "email"
-                                        }
-                                      }),
-                                      _vm._v(" "),
-                                      _c("CInput", {
-                                        attrs: {
-                                          placeholder: "Password",
-                                          type: "password",
-                                          prependHtml:
-                                            "<i class='cui-lock-locked'></i>",
-                                          autocomplete: "new-password"
-                                        },
-                                        scopedSlots: _vm._u([
-                                          {
-                                            key: "prepend-content",
-                                            fn: function() {
-                                              return [
-                                                _c("CIcon", {
-                                                  attrs: {
-                                                    name: "cil-lock-locked"
+                                        [
+                                          _c(
+                                            "div",
+                                            { staticClass: "input-group" },
+                                            [
+                                              _c("input", {
+                                                directives: [
+                                                  {
+                                                    name: "model",
+                                                    rawName: "v-model",
+                                                    value: _vm.email,
+                                                    expression: "email"
                                                   }
-                                                })
-                                              ]
-                                            },
-                                            proxy: true
-                                          }
-                                        ]),
-                                        model: {
-                                          value: _vm.password,
-                                          callback: function($$v) {
-                                            _vm.password = $$v
-                                          },
-                                          expression: "password"
-                                        }
-                                      }),
-                                      _vm._v(" "),
-                                      _c("CInput", {
-                                        staticClass: "mb-4",
-                                        attrs: {
-                                          placeholder: "Repeat password",
-                                          type: "password",
-                                          prependHtml:
-                                            "<i class='cui-lock-locked'></i>",
-                                          autocomplete: "new-password"
-                                        },
-                                        scopedSlots: _vm._u([
-                                          {
-                                            key: "prepend-content",
-                                            fn: function() {
-                                              return [
-                                                _c("CIcon", {
-                                                  attrs: {
-                                                    name: "cil-lock-locked"
+                                                ],
+                                                class: {
+                                                  "form-control": true,
+                                                  "is-invalid": _vm.errors.email
+                                                },
+                                                attrs: {
+                                                  type: "text",
+                                                  placeholder: "Email",
+                                                  prependhtml:
+                                                    "<i class='cui-lock-locked'></i>",
+                                                  autocomplete: "email"
+                                                },
+                                                domProps: { value: _vm.email },
+                                                on: {
+                                                  input: function($event) {
+                                                    if (
+                                                      $event.target.composing
+                                                    ) {
+                                                      return
+                                                    }
+                                                    _vm.email =
+                                                      $event.target.value
                                                   }
-                                                })
-                                              ]
-                                            },
-                                            proxy: true
-                                          }
-                                        ]),
-                                        model: {
-                                          value: _vm.password_confirmation,
-                                          callback: function($$v) {
-                                            _vm.password_confirmation = $$v
-                                          },
-                                          expression: "password_confirmation"
-                                        }
-                                      }),
+                                                }
+                                              })
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _vm.errors.email
+                                            ? _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "invalid-feedback",
+                                                  staticStyle: {
+                                                    display: "block"
+                                                  },
+                                                  attrs: { errors: _vm.errors }
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n                    " +
+                                                      _vm._s(
+                                                        _vm.errors.email[0]
+                                                      ) +
+                                                      "\n                  "
+                                                  )
+                                                ]
+                                              )
+                                            : _vm._e()
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass: "form-group",
+                                          attrs: { role: "group" }
+                                        },
+                                        [
+                                          _c(
+                                            "div",
+                                            { staticClass: "input-group" },
+                                            [
+                                              _c("input", {
+                                                directives: [
+                                                  {
+                                                    name: "model",
+                                                    rawName: "v-model",
+                                                    value: _vm.password,
+                                                    expression: "password"
+                                                  }
+                                                ],
+                                                class: {
+                                                  "form-control": true,
+                                                  "is-invalid":
+                                                    _vm.errors.password
+                                                },
+                                                attrs: {
+                                                  type: "password",
+                                                  placeholder: "Password",
+                                                  prependhtml:
+                                                    "<i class='cui-lock-locked'></i>",
+                                                  autocomplete: "password"
+                                                },
+                                                domProps: {
+                                                  value: _vm.password
+                                                },
+                                                on: {
+                                                  input: function($event) {
+                                                    if (
+                                                      $event.target.composing
+                                                    ) {
+                                                      return
+                                                    }
+                                                    _vm.password =
+                                                      $event.target.value
+                                                  }
+                                                }
+                                              })
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _vm.errors.password
+                                            ? _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "invalid-feedback",
+                                                  staticStyle: {
+                                                    display: "block"
+                                                  },
+                                                  attrs: { errors: _vm.errors }
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n                    " +
+                                                      _vm._s(
+                                                        _vm.errors.password[0]
+                                                      ) +
+                                                      "\n                  "
+                                                  )
+                                                ]
+                                              )
+                                            : _vm._e()
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass: "form-group",
+                                          attrs: { role: "group" }
+                                        },
+                                        [
+                                          _c(
+                                            "div",
+                                            { staticClass: "input-group" },
+                                            [
+                                              _c("input", {
+                                                directives: [
+                                                  {
+                                                    name: "model",
+                                                    rawName: "v-model",
+                                                    value:
+                                                      _vm.password_confirmation,
+                                                    expression:
+                                                      "password_confirmation"
+                                                  }
+                                                ],
+                                                class: {
+                                                  "form-control": true,
+                                                  "is-invalid":
+                                                    _vm.errors
+                                                      .password_confirmation
+                                                },
+                                                attrs: {
+                                                  type: "password",
+                                                  placeholder:
+                                                    "Repeat password",
+                                                  prependhtml:
+                                                    "<i class='cui-lock-locked'></i>",
+                                                  autocomplete: "new-password"
+                                                },
+                                                domProps: {
+                                                  value:
+                                                    _vm.password_confirmation
+                                                },
+                                                on: {
+                                                  input: function($event) {
+                                                    if (
+                                                      $event.target.composing
+                                                    ) {
+                                                      return
+                                                    }
+                                                    _vm.password_confirmation =
+                                                      $event.target.value
+                                                  }
+                                                }
+                                              })
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _vm.errors.password_confirmation
+                                            ? _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "invalid-feedback",
+                                                  staticStyle: {
+                                                    display: "block"
+                                                  },
+                                                  attrs: { errors: _vm.errors }
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n                    " +
+                                                      _vm._s(
+                                                        _vm.errors
+                                                          .password_confirmation[0]
+                                                      ) +
+                                                      "\n                  "
+                                                  )
+                                                ]
+                                              )
+                                            : _vm._e()
+                                        ]
+                                      ),
                                       _vm._v(" "),
                                       _c("CCol", { attrs: { sm: "12" } }, [
                                         _c(
@@ -455,117 +701,488 @@ var render = function() {
                                     [
                                       _c(
                                         "CRow",
-                                        { staticClass: "form-group" },
+                                        { staticClass: "form-group mb-0" },
                                         [
-                                          _c(
-                                            "CCol",
-                                            { attrs: { col: 6 } },
-                                            [
-                                              _c("CInput", {
-                                                staticClass: "mb-0",
-                                                attrs: {
-                                                  placeholder: "First Name",
-                                                  prependHtml:
-                                                    "<i class='cui-user'></i>",
-                                                  autocomplete: "first_name"
-                                                },
-                                                scopedSlots: _vm._u([
+                                          _c("CCol", { attrs: { col: 6 } }, [
+                                            _c(
+                                              "div",
+                                              {
+                                                staticClass: "form-group",
+                                                attrs: { role: "group" }
+                                              },
+                                              [
+                                                _c(
+                                                  "div",
                                                   {
-                                                    key: "prepend-content",
-                                                    fn: function() {
-                                                      return [
-                                                        _c("CIcon", {
-                                                          attrs: {
-                                                            name: "cil-user"
-                                                          }
-                                                        })
-                                                      ]
-                                                    },
-                                                    proxy: true
-                                                  }
-                                                ]),
-                                                model: {
-                                                  value: _vm.first_name,
-                                                  callback: function($$v) {
-                                                    _vm.first_name = $$v
+                                                    staticClass: "input-group"
                                                   },
-                                                  expression: "first_name"
-                                                }
-                                              })
-                                            ],
-                                            1
-                                          ),
+                                                  [
+                                                    _c("input", {
+                                                      directives: [
+                                                        {
+                                                          name: "model",
+                                                          rawName: "v-model",
+                                                          value: _vm.first_name,
+                                                          expression:
+                                                            "first_name"
+                                                        }
+                                                      ],
+                                                      class: {
+                                                        "form-control": true,
+                                                        "is-invalid":
+                                                          _vm.errors.first_name
+                                                      },
+                                                      attrs: {
+                                                        type: "text",
+                                                        placeholder:
+                                                          "First Name",
+                                                        prependhtml:
+                                                          "<i class='cui-lock-locked'></i>",
+                                                        autocomplete:
+                                                          "first_name"
+                                                      },
+                                                      domProps: {
+                                                        value: _vm.first_name
+                                                      },
+                                                      on: {
+                                                        input: function(
+                                                          $event
+                                                        ) {
+                                                          if (
+                                                            $event.target
+                                                              .composing
+                                                          ) {
+                                                            return
+                                                          }
+                                                          _vm.first_name =
+                                                            $event.target.value
+                                                        }
+                                                      }
+                                                    })
+                                                  ]
+                                                ),
+                                                _vm._v(" "),
+                                                _vm.errors.first_name
+                                                  ? _c(
+                                                      "div",
+                                                      {
+                                                        staticClass:
+                                                          "invalid-feedback",
+                                                        staticStyle: {
+                                                          display: "block"
+                                                        },
+                                                        attrs: {
+                                                          errors: _vm.errors
+                                                        }
+                                                      },
+                                                      [
+                                                        _vm._v(
+                                                          "\n                        " +
+                                                            _vm._s(
+                                                              _vm.errors
+                                                                .first_name[0]
+                                                            ) +
+                                                            "\n                      "
+                                                        )
+                                                      ]
+                                                    )
+                                                  : _vm._e()
+                                              ]
+                                            )
+                                          ]),
                                           _vm._v(" "),
-                                          _c(
-                                            "CCol",
-                                            { attrs: { col: 6 } },
-                                            [
-                                              _c("CInput", {
-                                                staticClass: "mb-0",
-                                                attrs: {
-                                                  placeholder: "Last Name",
-                                                  prependHtml:
-                                                    "<i class='cui-user'></i>",
-                                                  autocomplete: "last_name"
-                                                },
-                                                scopedSlots: _vm._u([
+                                          _c("CCol", { attrs: { col: 6 } }, [
+                                            _c(
+                                              "div",
+                                              {
+                                                staticClass: "form-group",
+                                                attrs: { role: "group" }
+                                              },
+                                              [
+                                                _c(
+                                                  "div",
                                                   {
-                                                    key: "prepend-content",
-                                                    fn: function() {
-                                                      return [
-                                                        _c("CIcon", {
-                                                          attrs: {
-                                                            name: "cil-user"
-                                                          }
-                                                        })
-                                                      ]
-                                                    },
-                                                    proxy: true
-                                                  }
-                                                ]),
-                                                model: {
-                                                  value: _vm.last_name,
-                                                  callback: function($$v) {
-                                                    _vm.last_name = $$v
+                                                    staticClass: "input-group"
                                                   },
-                                                  expression: "last_name"
-                                                }
-                                              })
-                                            ],
-                                            1
-                                          )
+                                                  [
+                                                    _c("input", {
+                                                      directives: [
+                                                        {
+                                                          name: "model",
+                                                          rawName: "v-model",
+                                                          value: _vm.last_name,
+                                                          expression:
+                                                            "last_name"
+                                                        }
+                                                      ],
+                                                      class: {
+                                                        "form-control": true,
+                                                        "is-invalid":
+                                                          _vm.errors.last_name
+                                                      },
+                                                      attrs: {
+                                                        type: "text",
+                                                        placeholder:
+                                                          "Last Name",
+                                                        prependhtml:
+                                                          "<i class='cui-lock-locked'></i>",
+                                                        autocomplete:
+                                                          "last_name"
+                                                      },
+                                                      domProps: {
+                                                        value: _vm.last_name
+                                                      },
+                                                      on: {
+                                                        input: function(
+                                                          $event
+                                                        ) {
+                                                          if (
+                                                            $event.target
+                                                              .composing
+                                                          ) {
+                                                            return
+                                                          }
+                                                          _vm.last_name =
+                                                            $event.target.value
+                                                        }
+                                                      }
+                                                    })
+                                                  ]
+                                                ),
+                                                _vm._v(" "),
+                                                _vm.errors.last_name
+                                                  ? _c(
+                                                      "div",
+                                                      {
+                                                        staticClass:
+                                                          "invalid-feedback",
+                                                        staticStyle: {
+                                                          display: "block"
+                                                        },
+                                                        attrs: {
+                                                          errors: _vm.errors
+                                                        }
+                                                      },
+                                                      [
+                                                        _vm._v(
+                                                          "\n                        " +
+                                                            _vm._s(
+                                                              _vm.errors
+                                                                .last_name[0]
+                                                            ) +
+                                                            "\n                      "
+                                                        )
+                                                      ]
+                                                    )
+                                                  : _vm._e()
+                                              ]
+                                            )
+                                          ])
                                         ],
                                         1
                                       ),
                                       _vm._v(" "),
-                                      _c("CInput", {
-                                        attrs: {
-                                          placeholder: "Driver License/Tax id",
-                                          prependHtml:
-                                            "<i class='cui-lock-locked'></i>",
-                                          autocomplete: "license"
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass: "form-group",
+                                          attrs: { role: "group" }
                                         },
-                                        scopedSlots: _vm._u([
-                                          {
-                                            key: "prepend-content",
-                                            fn: function() {
-                                              return [
-                                                _c("CIcon", {
-                                                  attrs: { name: "cil-user" }
-                                                })
-                                              ]
-                                            },
-                                            proxy: true
-                                          }
-                                        ]),
-                                        model: {
-                                          value: _vm.license,
-                                          callback: function($$v) {
-                                            _vm.license = $$v
-                                          },
-                                          expression: "license"
-                                        }
-                                      }),
+                                        [
+                                          _c(
+                                            "div",
+                                            { staticClass: "input-group" },
+                                            [
+                                              _c("input", {
+                                                directives: [
+                                                  {
+                                                    name: "model",
+                                                    rawName: "v-model",
+                                                    value: _vm.email,
+                                                    expression: "email"
+                                                  }
+                                                ],
+                                                class: {
+                                                  "form-control": true,
+                                                  "is-invalid": _vm.errors.email
+                                                },
+                                                attrs: {
+                                                  type: "text",
+                                                  placeholder: "Email",
+                                                  prependhtml:
+                                                    "<i class='cui-lock-locked'></i>",
+                                                  autocomplete: "email"
+                                                },
+                                                domProps: { value: _vm.email },
+                                                on: {
+                                                  input: function($event) {
+                                                    if (
+                                                      $event.target.composing
+                                                    ) {
+                                                      return
+                                                    }
+                                                    _vm.email =
+                                                      $event.target.value
+                                                  }
+                                                }
+                                              })
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _vm.errors.email
+                                            ? _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "invalid-feedback",
+                                                  staticStyle: {
+                                                    display: "block"
+                                                  },
+                                                  attrs: { errors: _vm.errors }
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n                    " +
+                                                      _vm._s(
+                                                        _vm.errors.email[0]
+                                                      ) +
+                                                      "\n                  "
+                                                  )
+                                                ]
+                                              )
+                                            : _vm._e()
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass: "form-group",
+                                          attrs: { role: "group" }
+                                        },
+                                        [
+                                          _c(
+                                            "div",
+                                            { staticClass: "input-group" },
+                                            [
+                                              _c("input", {
+                                                directives: [
+                                                  {
+                                                    name: "model",
+                                                    rawName: "v-model",
+                                                    value: _vm.password,
+                                                    expression: "password"
+                                                  }
+                                                ],
+                                                class: {
+                                                  "form-control": true,
+                                                  "is-invalid":
+                                                    _vm.errors.password
+                                                },
+                                                attrs: {
+                                                  type: "password",
+                                                  placeholder: "Password",
+                                                  prependhtml:
+                                                    "<i class='cui-lock-locked'></i>",
+                                                  autocomplete: "password"
+                                                },
+                                                domProps: {
+                                                  value: _vm.password
+                                                },
+                                                on: {
+                                                  input: function($event) {
+                                                    if (
+                                                      $event.target.composing
+                                                    ) {
+                                                      return
+                                                    }
+                                                    _vm.password =
+                                                      $event.target.value
+                                                  }
+                                                }
+                                              })
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _vm.errors.password
+                                            ? _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "invalid-feedback",
+                                                  staticStyle: {
+                                                    display: "block"
+                                                  },
+                                                  attrs: { errors: _vm.errors }
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n                    " +
+                                                      _vm._s(
+                                                        _vm.errors.password[0]
+                                                      ) +
+                                                      "\n                  "
+                                                  )
+                                                ]
+                                              )
+                                            : _vm._e()
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass: "form-group",
+                                          attrs: { role: "group" }
+                                        },
+                                        [
+                                          _c(
+                                            "div",
+                                            { staticClass: "input-group" },
+                                            [
+                                              _c("input", {
+                                                directives: [
+                                                  {
+                                                    name: "model",
+                                                    rawName: "v-model",
+                                                    value:
+                                                      _vm.password_confirmation,
+                                                    expression:
+                                                      "password_confirmation"
+                                                  }
+                                                ],
+                                                class: {
+                                                  "form-control": true,
+                                                  "is-invalid":
+                                                    _vm.errors
+                                                      .password_confirmation
+                                                },
+                                                attrs: {
+                                                  type: "password",
+                                                  placeholder:
+                                                    "Repeat password",
+                                                  prependhtml:
+                                                    "<i class='cui-lock-locked'></i>",
+                                                  autocomplete: "new-password"
+                                                },
+                                                domProps: {
+                                                  value:
+                                                    _vm.password_confirmation
+                                                },
+                                                on: {
+                                                  input: function($event) {
+                                                    if (
+                                                      $event.target.composing
+                                                    ) {
+                                                      return
+                                                    }
+                                                    _vm.password_confirmation =
+                                                      $event.target.value
+                                                  }
+                                                }
+                                              })
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _vm.errors.password_confirmation
+                                            ? _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "invalid-feedback",
+                                                  staticStyle: {
+                                                    display: "block"
+                                                  },
+                                                  attrs: { errors: _vm.errors }
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n                    " +
+                                                      _vm._s(
+                                                        _vm.errors
+                                                          .password_confirmation[0]
+                                                      ) +
+                                                      "\n                  "
+                                                  )
+                                                ]
+                                              )
+                                            : _vm._e()
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          staticClass: "form-group",
+                                          attrs: { role: "group" }
+                                        },
+                                        [
+                                          _c(
+                                            "div",
+                                            { staticClass: "input-group" },
+                                            [
+                                              _c("input", {
+                                                directives: [
+                                                  {
+                                                    name: "model",
+                                                    rawName: "v-model",
+                                                    value: _vm.license,
+                                                    expression: "license"
+                                                  }
+                                                ],
+                                                class: {
+                                                  "form-control": true,
+                                                  "is-invalid":
+                                                    _vm.errors.license
+                                                },
+                                                attrs: {
+                                                  type: "text",
+                                                  placeholder:
+                                                    "Driver License/Tax id",
+                                                  autocomplete: "license"
+                                                },
+                                                domProps: {
+                                                  value: _vm.license
+                                                },
+                                                on: {
+                                                  input: function($event) {
+                                                    if (
+                                                      $event.target.composing
+                                                    ) {
+                                                      return
+                                                    }
+                                                    _vm.license =
+                                                      $event.target.value
+                                                  }
+                                                }
+                                              })
+                                            ]
+                                          ),
+                                          _vm._v(" "),
+                                          _vm.errors.license
+                                            ? _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "invalid-feedback",
+                                                  staticStyle: {
+                                                    display: "block"
+                                                  },
+                                                  attrs: { errors: _vm.errors }
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n                    " +
+                                                      _vm._s(
+                                                        _vm.errors.license[0]
+                                                      ) +
+                                                      "\n                  "
+                                                  )
+                                                ]
+                                              )
+                                            : _vm._e()
+                                        ]
+                                      ),
                                       _vm._v(" "),
                                       _c(
                                         "div",
@@ -587,7 +1204,11 @@ var render = function() {
                                                     expression: "description"
                                                   }
                                                 ],
-                                                staticClass: "form-control",
+                                                class: {
+                                                  "form-control": true,
+                                                  "is-invalid":
+                                                    _vm.errors.description
+                                                },
                                                 attrs: {
                                                   placeholder: "Description...",
                                                   rows: "4"
@@ -608,7 +1229,31 @@ var render = function() {
                                                 }
                                               })
                                             ]
-                                          )
+                                          ),
+                                          _vm._v(" "),
+                                          _vm.errors.description
+                                            ? _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "invalid-feedback",
+                                                  staticStyle: {
+                                                    display: "block"
+                                                  },
+                                                  attrs: { errors: _vm.errors }
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n                    " +
+                                                      _vm._s(
+                                                        _vm.errors
+                                                          .description[0]
+                                                      ) +
+                                                      "\n                  "
+                                                  )
+                                                ]
+                                              )
+                                            : _vm._e()
                                         ]
                                       ),
                                       _vm._v(" "),
@@ -623,46 +1268,6 @@ var render = function() {
                                             "div",
                                             { staticClass: "input-group" },
                                             [
-                                              _c(
-                                                "div",
-                                                {
-                                                  staticClass:
-                                                    "input-group-prepend"
-                                                },
-                                                [
-                                                  _c(
-                                                    "span",
-                                                    {
-                                                      staticClass:
-                                                        "input-group-text"
-                                                    },
-                                                    [
-                                                      _c(
-                                                        "svg",
-                                                        {
-                                                          staticClass: "c-icon",
-                                                          attrs: {
-                                                            xmlns:
-                                                              "http://www.w3.org/2000/svg",
-                                                            viewBox:
-                                                              "0 0 24 24",
-                                                            role: "img"
-                                                          }
-                                                        },
-                                                        [
-                                                          _c("path", {
-                                                            attrs: {
-                                                              d:
-                                                                "M19.294 16.109l-3.414-2.219 1.287-2.359c0.288-0.519 0.457-1.137 0.458-1.796v-3.735c0-2.9-2.351-5.25-5.25-5.25s-5.25 2.351-5.25 5.25v0 3.735c0.001 0.658 0.17 1.277 0.468 1.815l-0.010-0.019 1.287 2.359-3.414 2.219c-1.033 0.676-1.706 1.828-1.706 3.137 0 0.002 0 0.005 0 0.007v-0 3.997h17.25v-3.997c0-0.002 0-0.005 0-0.007 0-1.309-0.673-2.461-1.692-3.128l-0.014-0.009zM19.5 21.75h-14.25v-2.497c0-0.001 0-0.003 0-0.004 0-0.785 0.404-1.477 1.015-1.877l0.009-0.005 4.578-2.976-1.952-3.578c-0.173-0.311-0.274-0.682-0.275-1.077v-3.735c0-2.071 1.679-3.75 3.75-3.75s3.75 1.679 3.75 3.75v0 3.735c-0 0.395-0.102 0.766-0.281 1.089l0.006-0.012-1.952 3.579 4.578 2.976c0.62 0.406 1.024 1.097 1.024 1.882 0 0.001 0 0.003 0 0.004v-0z"
-                                                            }
-                                                          })
-                                                        ]
-                                                      )
-                                                    ]
-                                                  )
-                                                ]
-                                              ),
-                                              _vm._v(" "),
                                               _c("input", {
                                                 directives: [
                                                   {
@@ -678,9 +1283,11 @@ var render = function() {
                                                     expression: "'999-999-9999'"
                                                   }
                                                 ],
-                                                staticClass: "form-control",
+                                                class: {
+                                                  "form-control": true,
+                                                  "is-invalid": _vm.errors.phone
+                                                },
                                                 attrs: {
-                                                  id: "uid-32jid8to6cl",
                                                   type: "text",
                                                   placeholder: "Phone Number",
                                                   autocomplete: "phone"
@@ -699,14 +1306,523 @@ var render = function() {
                                                 }
                                               })
                                             ]
-                                          )
+                                          ),
+                                          _vm._v(" "),
+                                          _vm.errors.phone
+                                            ? _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "invalid-feedback",
+                                                  staticStyle: {
+                                                    display: "block"
+                                                  },
+                                                  attrs: { errors: _vm.errors }
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n                    " +
+                                                      _vm._s(
+                                                        _vm.errors.phone[0]
+                                                      ) +
+                                                      "\n                  "
+                                                  )
+                                                ]
+                                              )
+                                            : _vm._e()
                                         ]
                                       ),
                                       _vm._v(" "),
                                       _c(
                                         "div",
                                         {
-                                          staticClass: "form-group form-row",
+                                          staticClass: "form-group",
+                                          attrs: { role: "group" }
+                                        },
+                                        [
+                                          _c(
+                                            "div",
+                                            { staticClass: "input-group" },
+                                            [
+                                              _c("input", {
+                                                directives: [
+                                                  {
+                                                    name: "model",
+                                                    rawName: "v-model",
+                                                    value: _vm.query,
+                                                    expression: "query"
+                                                  }
+                                                ],
+                                                staticClass: "form-control",
+                                                attrs: {
+                                                  type: "text",
+                                                  placeholder: "Address",
+                                                  autocomplete: "query"
+                                                },
+                                                domProps: { value: _vm.query },
+                                                on: {
+                                                  input: function($event) {
+                                                    if (
+                                                      $event.target.composing
+                                                    ) {
+                                                      return
+                                                    }
+                                                    _vm.query =
+                                                      $event.target.value
+                                                  }
+                                                }
+                                              })
+                                            ]
+                                          )
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "CRow",
+                                        { staticClass: "form-group mb-0" },
+                                        [
+                                          _c("CCol", { attrs: { col: 6 } }, [
+                                            _c(
+                                              "div",
+                                              {
+                                                staticClass: "form-group",
+                                                attrs: { role: "group" }
+                                              },
+                                              [
+                                                _c(
+                                                  "div",
+                                                  {
+                                                    staticClass: "input-group"
+                                                  },
+                                                  [
+                                                    _c("input", {
+                                                      directives: [
+                                                        {
+                                                          name: "model",
+                                                          rawName: "v-model",
+                                                          value: _vm.street,
+                                                          expression: "street"
+                                                        }
+                                                      ],
+                                                      class: {
+                                                        "form-control": true,
+                                                        "is-invalid":
+                                                          _vm.errors.street
+                                                      },
+                                                      attrs: {
+                                                        type: "text",
+                                                        placeholder: "Street",
+                                                        autocomplete: "street"
+                                                      },
+                                                      domProps: {
+                                                        value: _vm.street
+                                                      },
+                                                      on: {
+                                                        change: function(
+                                                          $event
+                                                        ) {
+                                                          return _vm.removeError(
+                                                            "street"
+                                                          )
+                                                        },
+                                                        input: function(
+                                                          $event
+                                                        ) {
+                                                          if (
+                                                            $event.target
+                                                              .composing
+                                                          ) {
+                                                            return
+                                                          }
+                                                          _vm.street =
+                                                            $event.target.value
+                                                        }
+                                                      }
+                                                    })
+                                                  ]
+                                                ),
+                                                _vm._v(" "),
+                                                _vm.errors.street
+                                                  ? _c(
+                                                      "div",
+                                                      {
+                                                        staticClass:
+                                                          "invalid-feedback",
+                                                        staticStyle: {
+                                                          display: "block"
+                                                        },
+                                                        attrs: {
+                                                          errors: _vm.errors
+                                                        }
+                                                      },
+                                                      [
+                                                        _vm._v(
+                                                          "\n                        " +
+                                                            _vm._s(
+                                                              _vm.errors
+                                                                .street[0]
+                                                            ) +
+                                                            "\n                      "
+                                                        )
+                                                      ]
+                                                    )
+                                                  : _vm._e()
+                                              ]
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("CCol", { attrs: { col: 6 } }, [
+                                            _c(
+                                              "div",
+                                              {
+                                                staticClass: "form-group",
+                                                attrs: { role: "group" }
+                                              },
+                                              [
+                                                _c(
+                                                  "div",
+                                                  {
+                                                    staticClass: "input-group"
+                                                  },
+                                                  [
+                                                    _c("input", {
+                                                      directives: [
+                                                        {
+                                                          name: "model",
+                                                          rawName: "v-model",
+                                                          value: _vm.city,
+                                                          expression: "city"
+                                                        }
+                                                      ],
+                                                      class: {
+                                                        "form-control": true,
+                                                        "is-invalid":
+                                                          _vm.errors.city
+                                                      },
+                                                      attrs: {
+                                                        type: "text",
+                                                        placeholder: "City",
+                                                        autocomplete: "city"
+                                                      },
+                                                      domProps: {
+                                                        value: _vm.city
+                                                      },
+                                                      on: {
+                                                        input: function(
+                                                          $event
+                                                        ) {
+                                                          if (
+                                                            $event.target
+                                                              .composing
+                                                          ) {
+                                                            return
+                                                          }
+                                                          _vm.city =
+                                                            $event.target.value
+                                                        }
+                                                      }
+                                                    })
+                                                  ]
+                                                ),
+                                                _vm._v(" "),
+                                                _vm.errors.city
+                                                  ? _c(
+                                                      "div",
+                                                      {
+                                                        staticClass:
+                                                          "invalid-feedback",
+                                                        staticStyle: {
+                                                          display: "block"
+                                                        },
+                                                        attrs: {
+                                                          errors: _vm.errors
+                                                        }
+                                                      },
+                                                      [
+                                                        _vm._v(
+                                                          "\n                        " +
+                                                            _vm._s(
+                                                              _vm.errors.city[0]
+                                                            ) +
+                                                            "\n                      "
+                                                        )
+                                                      ]
+                                                    )
+                                                  : _vm._e()
+                                              ]
+                                            )
+                                          ])
+                                        ],
+                                        1
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "CRow",
+                                        { staticClass: "form-group mb-0" },
+                                        [
+                                          _c("CCol", { attrs: { col: 4 } }, [
+                                            _c(
+                                              "div",
+                                              {
+                                                staticClass: "form-group",
+                                                attrs: { role: "group" }
+                                              },
+                                              [
+                                                _c(
+                                                  "div",
+                                                  {
+                                                    staticClass: "input-group"
+                                                  },
+                                                  [
+                                                    _c("input", {
+                                                      directives: [
+                                                        {
+                                                          name: "model",
+                                                          rawName: "v-model",
+                                                          value: _vm.state,
+                                                          expression: "state"
+                                                        }
+                                                      ],
+                                                      class: {
+                                                        "form-control": true,
+                                                        "is-invalid":
+                                                          _vm.errors.state
+                                                      },
+                                                      attrs: {
+                                                        type: "text",
+                                                        placeholder: "State",
+                                                        autocomplete: "state"
+                                                      },
+                                                      domProps: {
+                                                        value: _vm.state
+                                                      },
+                                                      on: {
+                                                        input: function(
+                                                          $event
+                                                        ) {
+                                                          if (
+                                                            $event.target
+                                                              .composing
+                                                          ) {
+                                                            return
+                                                          }
+                                                          _vm.state =
+                                                            $event.target.value
+                                                        }
+                                                      }
+                                                    })
+                                                  ]
+                                                ),
+                                                _vm._v(" "),
+                                                _vm.errors.state
+                                                  ? _c(
+                                                      "div",
+                                                      {
+                                                        staticClass:
+                                                          "invalid-feedback",
+                                                        staticStyle: {
+                                                          display: "block"
+                                                        },
+                                                        attrs: {
+                                                          errors: _vm.errors
+                                                        }
+                                                      },
+                                                      [
+                                                        _vm._v(
+                                                          "\n                        " +
+                                                            _vm._s(
+                                                              _vm.errors
+                                                                .state[0]
+                                                            ) +
+                                                            "\n                      "
+                                                        )
+                                                      ]
+                                                    )
+                                                  : _vm._e()
+                                              ]
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("CCol", { attrs: { col: 4 } }, [
+                                            _c(
+                                              "div",
+                                              {
+                                                staticClass: "form-group",
+                                                attrs: { role: "group" }
+                                              },
+                                              [
+                                                _c(
+                                                  "div",
+                                                  {
+                                                    staticClass: "input-group"
+                                                  },
+                                                  [
+                                                    _c("input", {
+                                                      directives: [
+                                                        {
+                                                          name: "model",
+                                                          rawName: "v-model",
+                                                          value:
+                                                            _vm.postal_code,
+                                                          expression:
+                                                            "postal_code"
+                                                        }
+                                                      ],
+                                                      class: {
+                                                        "form-control": true,
+                                                        "is-invalid":
+                                                          _vm.errors.postal_code
+                                                      },
+                                                      attrs: {
+                                                        type: "text",
+                                                        placeholder:
+                                                          "Postal Code",
+                                                        autocomplete:
+                                                          "postal_code"
+                                                      },
+                                                      domProps: {
+                                                        value: _vm.postal_code
+                                                      },
+                                                      on: {
+                                                        input: function(
+                                                          $event
+                                                        ) {
+                                                          if (
+                                                            $event.target
+                                                              .composing
+                                                          ) {
+                                                            return
+                                                          }
+                                                          _vm.postal_code =
+                                                            $event.target.value
+                                                        }
+                                                      }
+                                                    })
+                                                  ]
+                                                ),
+                                                _vm._v(" "),
+                                                _vm.errors.postal_code
+                                                  ? _c(
+                                                      "div",
+                                                      {
+                                                        staticClass:
+                                                          "invalid-feedback",
+                                                        staticStyle: {
+                                                          display: "block"
+                                                        },
+                                                        attrs: {
+                                                          errors: _vm.errors
+                                                        }
+                                                      },
+                                                      [
+                                                        _vm._v(
+                                                          "\n                        " +
+                                                            _vm._s(
+                                                              _vm.errors
+                                                                .postal_code[0]
+                                                            ) +
+                                                            "\n                      "
+                                                        )
+                                                      ]
+                                                    )
+                                                  : _vm._e()
+                                              ]
+                                            )
+                                          ]),
+                                          _vm._v(" "),
+                                          _c("CCol", { attrs: { col: 4 } }, [
+                                            _c(
+                                              "div",
+                                              {
+                                                staticClass: "form-group",
+                                                attrs: { role: "group" }
+                                              },
+                                              [
+                                                _c(
+                                                  "div",
+                                                  {
+                                                    staticClass: "input-group"
+                                                  },
+                                                  [
+                                                    _c("input", {
+                                                      directives: [
+                                                        {
+                                                          name: "model",
+                                                          rawName: "v-model",
+                                                          value: _vm.country,
+                                                          expression: "country"
+                                                        }
+                                                      ],
+                                                      class: {
+                                                        "form-control": true,
+                                                        "is-invalid":
+                                                          _vm.errors.country
+                                                      },
+                                                      attrs: {
+                                                        type: "text",
+                                                        placeholder: "Country",
+                                                        autocomplete: "country"
+                                                      },
+                                                      domProps: {
+                                                        value: _vm.country
+                                                      },
+                                                      on: {
+                                                        input: function(
+                                                          $event
+                                                        ) {
+                                                          if (
+                                                            $event.target
+                                                              .composing
+                                                          ) {
+                                                            return
+                                                          }
+                                                          _vm.country =
+                                                            $event.target.value
+                                                        }
+                                                      }
+                                                    })
+                                                  ]
+                                                ),
+                                                _vm._v(" "),
+                                                _vm.errors.country
+                                                  ? _c(
+                                                      "div",
+                                                      {
+                                                        staticClass:
+                                                          "invalid-feedback",
+                                                        staticStyle: {
+                                                          display: "block"
+                                                        },
+                                                        attrs: {
+                                                          errors: _vm.errors
+                                                        }
+                                                      },
+                                                      [
+                                                        _vm._v(
+                                                          "\n                        " +
+                                                            _vm._s(
+                                                              _vm.errors
+                                                                .country[0]
+                                                            ) +
+                                                            "\n                      "
+                                                        )
+                                                      ]
+                                                    )
+                                                  : _vm._e()
+                                              ]
+                                            )
+                                          ])
+                                        ],
+                                        1
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        {
+                                          class: {
+                                            "form-group": true,
+                                            "form-row": true
+                                          },
                                           attrs: { role: "group" }
                                         },
                                         [
@@ -725,8 +1841,11 @@ var render = function() {
                                                       expression: "service_type"
                                                     }
                                                   ],
-                                                  staticClass: "form-control",
-                                                  attrs: { id: "service_type" },
+                                                  class: {
+                                                    "form-control": true,
+                                                    "is-invalid":
+                                                      _vm.errors.service_type
+                                                  },
                                                   on: {
                                                     change: function($event) {
                                                       var $$selectedVal = Array.prototype.filter
@@ -789,89 +1908,29 @@ var render = function() {
                                                 2
                                               )
                                             ]
-                                          )
+                                          ),
+                                          _vm._v(" "),
+                                          _vm.errors.service_type
+                                            ? _c(
+                                                "div",
+                                                {
+                                                  staticClass:
+                                                    "invalid-feedback",
+                                                  attrs: { errors: _vm.errors }
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    "\n                    " +
+                                                      _vm._s(
+                                                        _vm.errors.service_type
+                                                      ) +
+                                                      "\n                  "
+                                                  )
+                                                ]
+                                              )
+                                            : _vm._e()
                                         ]
                                       ),
-                                      _vm._v(" "),
-                                      _c("CInput", {
-                                        attrs: {
-                                          placeholder: "Email",
-                                          prepend: "@",
-                                          autocomplete: "email"
-                                        },
-                                        model: {
-                                          value: _vm.email,
-                                          callback: function($$v) {
-                                            _vm.email = $$v
-                                          },
-                                          expression: "email"
-                                        }
-                                      }),
-                                      _vm._v(" "),
-                                      _c("CInput", {
-                                        attrs: {
-                                          placeholder: "Password",
-                                          type: "password",
-                                          prependHtml:
-                                            "<i class='cui-lock-locked'></i>",
-                                          autocomplete: "new-password"
-                                        },
-                                        scopedSlots: _vm._u([
-                                          {
-                                            key: "prepend-content",
-                                            fn: function() {
-                                              return [
-                                                _c("CIcon", {
-                                                  attrs: {
-                                                    name: "cil-lock-locked"
-                                                  }
-                                                })
-                                              ]
-                                            },
-                                            proxy: true
-                                          }
-                                        ]),
-                                        model: {
-                                          value: _vm.password,
-                                          callback: function($$v) {
-                                            _vm.password = $$v
-                                          },
-                                          expression: "password"
-                                        }
-                                      }),
-                                      _vm._v(" "),
-                                      _c("CInput", {
-                                        staticClass: "mb-4",
-                                        attrs: {
-                                          placeholder: "Repeat password",
-                                          type: "password",
-                                          prependHtml:
-                                            "<i class='cui-lock-locked'></i>",
-                                          autocomplete: "new-password"
-                                        },
-                                        scopedSlots: _vm._u([
-                                          {
-                                            key: "prepend-content",
-                                            fn: function() {
-                                              return [
-                                                _c("CIcon", {
-                                                  attrs: {
-                                                    name: "cil-lock-locked"
-                                                  }
-                                                })
-                                              ]
-                                            },
-                                            proxy: true
-                                          }
-                                        ]),
-                                        model: {
-                                          value: _vm.password_confirmation,
-                                          callback: function($$v) {
-                                            _vm.password_confirmation = $$v
-                                          },
-                                          expression: "password_confirmation"
-                                        }
-                                      }),
                                       _vm._v(" "),
                                       _c(
                                         "image-input",
@@ -959,7 +2018,6 @@ var render = function() {
                                                 }
                                               ],
                                               attrs: {
-                                                id: "agree_term",
                                                 type: "checkbox",
                                                 value: "agree_term"
                                               },
