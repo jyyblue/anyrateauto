@@ -94,6 +94,11 @@ const SendEmail     = () => import('@/views/email/SendEmail')
 const EditMenu = () => import('@/views/menu/EditMenu')
 const Media = () => import('@/views/media/Media')
 
+//frontEnd
+
+const Layout = () => import('@/front/layout/Layout')
+const HomePage = () => import('@/front/pages/home/HomePage')
+
 
 
 
@@ -110,7 +115,18 @@ function configRoutes () {
   return [
     {
       path: '/',
-      redirect: '/login',
+      name: 'FrontHome',
+      component: Layout,
+      children: [
+        {
+          path: '/',
+          name: 'Home Page',
+          component: HomePage
+        },
+      ]
+    },
+    {
+      path: '/',
       name: 'Auth',
       component: {
         render (c) { return c('router-view') }
@@ -127,7 +143,10 @@ function configRoutes () {
           component: Register
         },
       ]
+        
+
     },
+
     {
       path: '/',
       redirect: '/dashboard',
