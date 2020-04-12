@@ -74,25 +74,23 @@ export default {
         const config = {
             headers: { 'content-type': 'multipart/form-data' }
         }
-
+        let $this = this;
         let formData = new FormData();
+
         formData.append('image', files[0]);
         formData.append('item', this.item.id);
-
         axios.post('/api/sliders/uploadImage', formData, config)
         .then(function (response) {
-            console.log(response);
+            $this.item.path = response.data.path;
         })
         .catch(function (error) {
-            console.log(response);
+            console.log(error);
         });
-
-
       }
     }
   },
   mounted(){
-
+    this.imageData = this.item.path
   }
 
 }

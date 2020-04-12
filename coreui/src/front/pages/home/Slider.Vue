@@ -11,7 +11,7 @@
                     <li data-transition="fade">
 
                         <!-- MAIN IMAGE -->
-                        <img src="images/slide-show1.jpg" alt="">                        
+                        <img :src="slider1.path" alt="">                        
 
                         <!-- LAYERS -->
                         <div class="tp-caption mediumlarge_light_white_center domainate start"
@@ -26,7 +26,7 @@
                         data-splitout="none"
 
                         data-speed="1000"
-                        data-endspeed="300">DOMINATE </div>
+                        data-endspeed="300">{{slider1.layer1}}</div>
 
                         <!-- LAYER NR. 1 -->
                         <div class="tp-caption internet"
@@ -41,7 +41,7 @@
                         data-splitin="none"
                         data-splitout="none"
 
-                        style="z-index: 6; letter-spacing: -3px;">THE INTERNET </div>
+                        style="z-index: 6; letter-spacing: -3px;">{{slider1.layer2}}</div>
 
                         <!-- LAYER NR. 2 -->
                         <div class="tp-caption attract "
@@ -53,7 +53,7 @@
                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
                         data-splitin="none"
                         data-splitout="none"
-                        style="z-index: 6; ">Attract, Engage, &amp; Convert </div>
+                        style="z-index: 6; ">{{slider1.layer3}}</div>
 
                         <!-- LAYER NR. 3 -->
                         <div class="tp-caption more "
@@ -65,7 +65,7 @@
                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
                         data-splitin="none"
                         data-splitout="none"
-                        style="z-index: 6; ">more </div>
+                        style="z-index: 6; ">{{slider1.layer4}}</div>
 
                         <!-- LAYER NR. 4 -->
                         <div class="tp-caption qualified"
@@ -77,7 +77,7 @@
                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
                         data-splitin="none"
                         data-splitout="none"
-                        style="z-index: 6">qualified vehicle shoppers </div>
+                        style="z-index: 6">{{slider1.layer5}}</div>
 
 
                     </li>
@@ -86,7 +86,7 @@
                     <li data-transition="fade">
 
                         <!-- MAIN IMAGE -->
-                        <img src="images/slide-show2.jpg"  alt="">
+                        <img :src="slider2.path"  alt="">
 
                         <!-- LAYERS -->
                         <div class="tp-caption mediumlarge_light_white_center invest"
@@ -98,7 +98,7 @@
                         data-transform_in="x:right;s:2000;e:Power4.easeInOut;"
                         data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
                         data-splitin="none"
-                        data-splitout="none" >Time to invest in a website built to </div>
+                        data-splitout="none" >{{slider2.layer1}}</div>
 
                         <!-- LAYER NR. 1 -->
                         <div class="tp-caption move mediumlarge_light_white_center"
@@ -110,7 +110,7 @@
                         data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
                         data-splitin="none"
                         data-splitout="none"
-                        style="z-index: 6; letter-spacing: -3px;">MOVE </div>
+                        style="z-index: 6; letter-spacing: -3px;">{{slider2.layer2}}</div>
 
                         <!-- LAYER NR. 2 -->
                         <div class="tp-caption light_brown mediumlarge_light_white_center sfl"
@@ -122,7 +122,7 @@
                         data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
                         data-splitin="none"
                         data-splitout="none"
-                        style="z-index: 6;">YOUR </div>
+                        style="z-index: 6;">{{slider2.layer3}}</div>
 
                         <!-- LAYER NR. 3 -->
                         <div class="tp-caption dark_brown mediumlarge_light_white_center "
@@ -134,7 +134,7 @@
                         data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
                         data-splitin="none"
                         data-splitout="none"
-                        style="z-index: 6;">INVENTORY </div>
+                        style="z-index: 6;">{{slider2.layer4}}</div>
 
                         <!-- LAYER NR. 4 -->
                         <div class="tp-caption faster mediumlarge_light_white_center"
@@ -146,7 +146,7 @@
                         data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
                         data-splitin="none"
                         data-splitout="none"
-                        style="z-index: 6">AAAASTER  </div>
+                        style="z-index: 6">{{slider2.layer5}}</div>
 
                         <!-- LAYER NR. 5 -->
                         <div class="tp-caption brown_line"
@@ -165,7 +165,7 @@
                     <li data-transition="fade">
 
                         <!-- MAIN IMAGE -->
-                        <img src="images/slide-show3.jpg" alt="">
+                        <img :src="slider3.path" alt="">
 
                         <!-- LAYERS -->
                         <div class="tp-caption customin customout start green"
@@ -177,7 +177,7 @@
                         data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
                         data-speed="1000"
                         data-start="500"
-                        data-endspeed="300">Wow Factor?</div>
+                        data-endspeed="300">{{slider3.layer1}}</div>
 
                         <!-- LAYER NR. 1 -->
                         <div class="tp-caption big_white fade"
@@ -187,13 +187,13 @@
                         data-start="800"
                         data-transform_in="y:bottom;s:2000;e:Power4.easeInOut;"
                         data-transform_out="s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
-                        style="z-index: 6;">STANDARD. </div>
+                        style="z-index: 6;">{{slider3.layer2}}</div>
                     </li>
 
                     <!-- SLIDE  -->
                     <li data-transition="fade">
                         <!-- MAIN IMAGE -->
-                        <img src="images/slide-show4.jpg" alt="">
+                        <img :src="slider4.path" alt="">
 
                         <!-- LAYERS -->
                         <div class="tp-caption customin customout start big_white"
@@ -206,7 +206,7 @@
                         data-speed="1000"
                         data-start="500"
                         data-easing="Back.easeInOut"
-                        data-endspeed="300">UNLOCK</div>
+                        data-endspeed="300">{{slider4.layer1}}</div>
 
                         <!-- LAYER NR. 1 -->
                         <div class="tp-caption thin_red fade"
@@ -216,7 +216,7 @@
                         data-start="800"
                         data-transform_in="x:-50px;opacity:0;s:2000;e:Power3.easeOut;"
                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
-                        style="z-index: 6;">THE POTENTIAL</div>
+                        style="z-index: 6;">{{slider4.layer2}}</div>
 
                         <!-- LAYER NR. 2 -->
                         <div class="tp-caption thin_white skewfromright"
@@ -226,7 +226,7 @@
                         data-start="800"
                         data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeOut;"
                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
-                        style="z-index: 6;">business from your</div>
+                        style="z-index: 6;">{{slider4.layer3}}</div>
 
                         <!-- LAYER NR. 3 -->
                         <div class="tp-caption cursive skewfromright"
@@ -236,13 +236,13 @@
                         data-start="800"
                         data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeOut;"
                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
-                        style="z-index: 6;">website</div>
+                        style="z-index: 6;">{{slider4.layer4}}</div>
                     </li>
 
                     <!-- SLIDE  -->
                     <li data-transition="fade">
                         <!-- MAIN IMAGE -->
-                        <img src="images/slide-show5.jpg" alt="">
+                        <img :src="slider5.path" alt="">
 
                         <!-- LAYERS -->
                         <div class="tp-caption mediumlarge_light_white_center domainate customin customout start"
@@ -255,7 +255,7 @@
                         data-speed="1000"
                         data-start="500"
                         data-easing="Back.easeInOut"
-                        data-endspeed="300">REALITY </div>
+                        data-endspeed="300">{{slider5.layer1}}</div>
 
                         <!-- LAYER NR. 1 -->
                         <div class="tp-caption thin_dark_blue fade"
@@ -265,7 +265,7 @@
                         data-start="800"
                         data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeOut;"
                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
-                        style="z-index: 6; letter-spacing: 0;">IS JUST</div>
+                        style="z-index: 6; letter-spacing: 0;">{{slider5.layer2}}</div>
 
                         <!-- LAYER NR. 2 -->
                         <div class="tp-caption thinner_white sfl"
@@ -275,7 +275,7 @@
                         data-start="1200"
                         data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power2.easeOut;"
                         data-transform_out="s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;"
-                        style="z-index: 6; ">your perception</div>
+                        style="z-index: 6; ">{{slider5.layer3}}</div>
                     </li>
                 </ul>
             </div><!-- END REVOLUTION SLIDER -->
@@ -286,9 +286,30 @@
 </template>
 <script>
 
+import axios from 'axios'
 export default {
   name: 'Slider',
+  data () {
+    return {
+        slider1: [],
+        slider2: [],
+        slider3: [],
+        slider4: [],
+        slider5: [],
+    }
+  },
   mounted() {
+        
+  },
+  created(){
+      let uri = '/api/sliders/get';
+      axios.get(uri).then(response => {
+        this.slider1 = response.data[0];
+        this.slider2 = response.data[1];
+        this.slider3 = response.data[2];
+        this.slider4 = response.data[3];
+        this.slider5 = response.data[4];
+
         var revapi;
         jQuery(document).ready(function() {
             revapi = jQuery("#rev_slider").revolution({
@@ -302,6 +323,8 @@ export default {
                 gridheight:645
             });
         });
-  }
+
+      });
+    }
 }
 </script>

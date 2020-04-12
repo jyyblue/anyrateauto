@@ -39,7 +39,6 @@ export default {
   methods: {
       changeSlider(){
         let uri = '/api/sliders/update';
-        console.log(this.sliders);
         axios.post(uri, {sliders: this.sliders}).then((response) => {
           if (response.status == 200) {
             Vue.$toast.open({

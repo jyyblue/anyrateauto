@@ -35,7 +35,7 @@ class EditPageController extends Controller
         $imageName = 'slider_'.$sliderId.'.'.$request->image->getClientOriginalExtension();
         $request->image->move($path, $imageName);
         
-        return response()->json(['success'=>'You have successfully upload image.', 'path'=>$path.$imageName]);
+        return response()->json(['success'=>'You have successfully upload image.', 'path'=>'/images/sliders/'.$imageName]);
     }
 
 }
