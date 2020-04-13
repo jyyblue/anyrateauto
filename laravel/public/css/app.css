@@ -16466,14 +16466,6 @@ body {
   overflow-x: hidden;
 }
 
-a {
-  color: #c7081b;
-}
-
-a:hover {
-  color: #c7081b;
-}
-
 p, h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", sans-serif, Arial;
   font-weight: 400;
@@ -16533,24 +16525,6 @@ strong {
 img, iframe {
   max-width: 100%;
   height: auto;
-}
-
-.success {
-  font-size: 15px;
-  background: #CFFFF5;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #B9ECCE;
-  border-radius: 5px;
-  font-weight: normal;
-}
-
-.error {
-  font-size: 15px;
-  background: #FFDFDF;
-  border: 1px solid #FFCACA;
-  border-radius: 5px;
-  font-weight: normal;
 }
 
 .select-wrapper .row {
@@ -16887,7 +16861,6 @@ hr {
 ----------------------------*/
 header {
   background: rgba(0, 0, 0, 0.65);
-  position: absolute;
   z-index: 1000;
   width: 100%;
   top: 0px;
@@ -17278,7 +17251,7 @@ header.affix .bottom-header .navbar-default .navbar-brand .logo .secondary_text 
 
 .dropdown .dropdown-menu li.dropdown .dropdown-menu:before {
   content: "";
-  border: none;
+  border: none !important;
 }
 
 .dropdown .dropdown-menu li.dropdown .dropdown-menu > li:first-of-type > a {
@@ -24388,10 +24361,6 @@ section.content, .car-block-wrap, .welcome-wrap {
     margin: 0 auto;
   }
 
-  header {
-    position: absolute;
-  }
-
   h1 a.logo {
     margin-bottom: 20px;
   }
@@ -24618,10 +24587,6 @@ section.content, .car-block-wrap, .welcome-wrap {
 @media (min-width: 568px) {
   .form-row {
     width: 100%;
-  }
-
-  header {
-    position: absolute;
   }
 
   input[type=text], textarea, select, div.styled, input[type=file] {
@@ -25276,10 +25241,6 @@ section.content, .car-block-wrap, .welcome-wrap {
 
   h1 a.logo {
     margin: 10px 40%;
-  }
-
-  header {
-    position: absolute;
   }
 
   .f-nav {
@@ -26658,10 +26619,6 @@ section.content, .car-block-wrap, .welcome-wrap {
     margin: 0 auto;
     width: 100%;
     overflow: hidden;
-  }
-
-  header {
-    position: absolute;
   }
 
   #secondary-banner {

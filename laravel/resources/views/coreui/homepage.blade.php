@@ -27,7 +27,9 @@
 
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Yellowtail%7COpen%20Sans%3A400%2C300%2C600%2C700%2C800" media="screen" />
 <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+
 <link rel="stylesheet" href="css/jquery.bxslider.css" type="text/css" media="screen" />
 <link href="css/jquery.fancybox.css" rel="stylesheet">
 <link href="css/jquery.selectbox.css" rel="stylesheet">

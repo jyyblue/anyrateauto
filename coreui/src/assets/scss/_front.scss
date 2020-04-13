@@ -14,14 +14,6 @@ body {
 	overflow-x: hidden;
 }
 
-a {
-	color: #c7081b;
-}
-
-a:hover {
-	color: #c7081b;
-}
-
 p, h1, h2, h3, h4, h5, h6 {
 	font-family: 'Open Sans', sans-serif, Arial;
 	font-weight: 400;
@@ -81,24 +73,6 @@ strong {
 img, iframe {
 	max-width: 100%;
 	height: auto;
-}
-
-.success {
-	font-size: 15px;
-	background: #CFFFF5;
-	padding: 10px;
-	margin-bottom: 10px;
-	border: 1px solid #B9ECCE;
-	border-radius: 5px;
-	font-weight: normal;
-}
-
-.error {
-	font-size: 15px;
-	background: #FFDFDF;
-	border: 1px solid #FFCACA;
-	border-radius: 5px;
-	font-weight: normal;
 }
 
 .select-wrapper .row {
@@ -440,7 +414,7 @@ hr {
 
 header {
 	background: rgba(0, 0, 0, 0.65);
-	position: absolute;
+	// position: absolute;
 	z-index: 1000;
 	width: 100%;
 	top: 0px;
@@ -836,7 +810,7 @@ header.affix .bottom-header .navbar-default .navbar-brand .logo .secondary_text 
 
 .dropdown .dropdown-menu li.dropdown .dropdown-menu:before {
 	content: "";
-	border: none;
+	border: none !important;
 }
 
 .dropdown .dropdown-menu li.dropdown .dropdown-menu>li:first-of-type>a {
