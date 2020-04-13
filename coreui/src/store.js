@@ -4,7 +4,10 @@ Vue.use(Vuex)
 
 const state = {
   sidebarShow: 'responsive',
-  sidebarMinimize: false
+  sidebarMinimize: false,
+  RECAPTCHA_SITE_KEY:"6LeKYugUAAAAAH6CArdCzWCut7DesdKzNzwxwAYm",
+  HERE_LOCATION_REST_API_KEY:'boYsEVSWamiUWI9wWIZ3VXCcOE62ov9yYRxFE2kg5CM', //https://developer.here.com/
+  HERE_LOCATION_REST_APP_ID:'lCRo4m0WpqNPoKd1GaiU',
 }
 
 const mutations = {
@@ -23,5 +26,5 @@ const mutations = {
 
 export default new Vuex.Store({
   state,
-  mutations
+  mutations,
 })

@@ -12,7 +12,8 @@ class MenusTableSeeder extends Seeder
     private $sequence = 1;
     private $joinData = array();
     private $adminRole = null;
-    private $userRole = null;
+    private $customerRole = null;
+    private $techniqueRole = null;
 
     public function join($roles, $menusId){
         $roles = explode(',', $roles);
@@ -65,8 +66,11 @@ class MenusTableSeeder extends Seeder
             $permission = Permission::create(['name' => 'visit ' . $name]);
         }
         $roles = explode(',', $roles);
-        if(in_array('user', $roles)){
-            $this->userRole->givePermissionTo($permission);
+        if(in_array('customer', $roles)){
+            $this->customerRole->givePermissionTo($permission);
+        }
+        if(in_array('technique', $roles)){
+            $this->techniqueRole->givePermissionTo($permission);
         }
         if(in_array('admin', $roles)){
             $this->adminRole->givePermissionTo($permission);
@@ -127,14 +131,15 @@ class MenusTableSeeder extends Seeder
     {
         /* Get roles */
         $this->adminRole = Role::where('name' , '=' , 'admin' )->first();
-        $this->userRole = Role::where('name', '=', 'user' )->first();
+        $this->customerRole = Role::where('name', '=', 'customer' )->first();
+        $this->techniqueRole = Role::where('name', '=', 'technique' )->first();
         $this->devRole = Role::where('name', '=', 'dev' )->first();
 
         $dropdownId = array();
         /* sidebar menu */
         $this->menuId = 1;
         /* guest menu */
-        $this->insertLink('guest,user,admin,dev', 'Dashboard', '/', 'cil-speedometer');
+        $this->insertLink('guest,customer,admin,dev', 'Dashboard', '/', 'cil-speedometer');
         $this->insertLink('dev', 'Login', '/login', 'cil-account-logout');
         $this->insertLink('dev', 'Register', '/register', 'cil-account-logout');
         $this->beginDropdown('admin,dev', 'Settings', '/', 'cil-puzzle');

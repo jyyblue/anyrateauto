@@ -45,24 +45,38 @@ class UsersAndNotesSeeder extends Seeder
                 'hierarchy' => 2,
             ]);
         }
-        $userRole = Role::where(['name'=>'user'])->first();
+        $userRole = Role::where(['name'=>'customer'])->first();
         if($userRole === null){
-            $userRole = Role::create(['name' => 'user']);
+            $userRole = Role::create(['name' => 'customer']);
             RoleHierarchy::create([
                 'role_id' => $userRole->id,
                 'hierarchy' => 3,
             ]);
         }
-
+        $userRole = Role::where(['name'=>'technique'])->first();
+        if($userRole === null){
+            $userRole = Role::create(['name' => 'technique']);
+            RoleHierarchy::create([
+                'role_id' => $userRole->id,
+                'hierarchy' => 4,
+            ]);
+        }
+        $guestRole = Role::where(['name'=>'subadmin'])->first();
+        if($guestRole === null){
+            $guestRole = Role::create(['name' => 'subadmin']); 
+            RoleHierarchy::create([
+                'role_id' => $guestRole->id,
+                'hierarchy' => 5,
+            ]);
+        }
         $guestRole = Role::where(['name'=>'guest'])->first();
         if($guestRole === null){
             $guestRole = Role::create(['name' => 'guest']); 
             RoleHierarchy::create([
                 'role_id' => $guestRole->id,
-                'hierarchy' => 4,
+                'hierarchy' => 6,
             ]);
         }
-
         $faker = Faker::create();
         /*  insert status  */
         $s_ongoing = DB::table('status')->where('name','ongoing')->first();
@@ -123,7 +137,8 @@ class UsersAndNotesSeeder extends Seeder
 
             ]);
             $user->assignRole('admin');
-            $user->assignRole('user');
+            $user->assignRole('customer');
+            $user->assignRole('technique');
         }
 
         $devuser = User::where('name','dev')->first();
@@ -139,7 +154,8 @@ class UsersAndNotesSeeder extends Seeder
 
             ]);
             $user2->assignRole('admin');
-            $user2->assignRole('user');
+            $user2->assignRole('customer');
+            $user2->assignRole('technique');
             $user2->assignRole('dev');
             $user2->assignRole('guest');
         }
@@ -152,10 +168,10 @@ class UsersAndNotesSeeder extends Seeder
                 'email_verified_at' => now(),
                 'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
                 'remember_token' => Str::random(10),
-                'menuroles' => 'user',
+                'menuroles' => 'customer',
                 'status' => $userStatus[ random_int(0,count($userStatus) - 1) ]
             ]);
-            $user->assignRole('user');
+            $user->assignRole('customer');
             array_push($usersIds, $user->id);
         }
         /*  insert notes  */
